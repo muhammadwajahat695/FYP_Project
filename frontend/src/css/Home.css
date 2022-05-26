@@ -1,0 +1,107 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgb(231, 231, 231);
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: -20px;
+}
+
+th,
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.column1 {
+  width: 250px;
+  height: 25px;
+}
+.column2 {
+  width: 500px;
+  height: 25px;
+}
+.column3 {
+  width: 160px;
+  height: 25px;
+}
+/* .column4 {
+  width: 240px;
+  height: 25px;
+} */
+.column5 {
+  width: 240px;
+  height: 25px;
+}
+.column6 {
+  width: 135px;
+  height: 25px;
+}
+
+.dropbtn {
+  height: 25px;
+  width: 25px;
+}
+
+.dropbtndisabled {
+  height: 25px;
+  width: 25px;
+}
+
+.dropbtndisabled-credits {
+  height: 25px;
+  width: 25px;
+}
+
+.dropbtndiv-credits .tooltipcredits{
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(63, 55, 55);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  
+}
+.dropbtndiv-status:hover .tooltipstatus{
+  visibility: visible;
+}
+
+.dropbtndiv-status .tooltipstatus{
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(63, 55, 55);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  
+}
+.dropbtndiv-credits:hover .tooltipcredits{
+  visibility: visible;
+}
+.dropbtndisabled-status {
+  height: 25px;
+  width: 25px;
+}
+
+.dropreasoninput {
+  border: 1px solid;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.dropreasonlabel {
+  margin-left: -20.5rem;
+  font-weight: bold;
+  font-size: large;
+}

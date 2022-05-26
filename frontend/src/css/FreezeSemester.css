@@ -1,0 +1,62 @@
+.freezesemesterdiv {
+  background-color: blue;
+  margin: 30px 150px 0px 150px;
+  text-align: center;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.freezesemestertitle {
+  padding: 10px 0px 10px 0px;
+  font-weight: normal;
+}
+
+.formdiv {
+  background-color: rgb(231, 231, 231);
+  margin: -20px 150px 0px 150px;
+  text-align: center;
+  padding: 35px 0px 35px 0px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.reasonlabel {
+  margin-left: -25.9rem;
+  font-weight: bold;
+  font-size: large;
+}
+.reasoninput {
+  width: 466px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.reasoninput::placeholder {
+  color: black;
+  font-size: 15px;
+}
+
+.timelabel {
+  margin-left: -18.6rem;
+  font-weight: bold;
+  font-size: large;
+}
+.timeinput {
+  width: 475px;
+  height: 39px;
+  /* padding: 0px 268px 12px 0px; */
+  font-size: 15px;
+  margin: 10px 0px 35px 0px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.freezebutton {
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  padding: 7px 40px 7px 40px;
+  border-radius: 5px;
+  font-size: 16px;
+}

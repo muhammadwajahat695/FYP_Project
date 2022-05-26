@@ -1,0 +1,1197 @@
+{
+  "batch": "SP19",
+  "regNo": "013",
+  "registrationId": "SP19-BCS-013",
+  "section": "SP19-BCS-A",
+  "semester": 7,
+  "name": "Ali Haider",
+  "fatherName": "Muhammad Tariq",
+  "email": "SP19.BCS.013@gmail.com",
+  "contactNo": "03162345678",
+  "address": "Johar Town, Lahore",
+  "password": "abcd1234",
+  "batchAdvisorName": "Hassan Ali",
+  "batchAdvisorEmail": "hassansp19@gmail.com",
+  "profilePic": "/ProfilePics/sp19_013.jpg",
+  "Result": [
+    {
+      "Semester1": [
+        {
+          "courseName": "Introduction to ICT",
+          "courseCode": "CSC101",
+          "credits": 3,
+          "marks": 80,
+          "gp": 3.3
+        },
+        {
+          "courseName": "English Comprehension and Composition",
+          "courseCode": "HUM100",
+          "credits": 3,
+          "marks": 76,
+          "gp": 3
+        },
+        {
+          "courseName": "Islamic Studies",
+          "courseCode": "HUM110",
+          "credits": 3,
+          "marks": 78,
+          "gp": 3
+        },
+        {
+          "courseName": "Calculus and Analytical Geometry",
+          "courseCode": "MTH104",
+          "credits": 3,
+          "marks": 91,
+          "gp": 4
+        },
+        {
+          "courseName": "Applied Physics for Engineers",
+          "courseCode": "PHY121",
+          "credits": 4,
+          "marks": 91,
+          "gp": 4
+        }
+      ],
+      "Semester2": [
+        {
+          "courseName": "Report Writing Skills",
+          "courseCode": "HUM102",
+          "credits": 3,
+          "marks": 82,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Discrete Structures",
+          "courseCode": "CSC102",
+          "credits": 3,
+          "marks": 91,
+          "gp": 4
+        },
+        {
+          "courseName": "Programming Fundamentals",
+          "courseCode": "CSC103",
+          "credits": 4,
+          "marks": 90,
+          "gp": 4
+        },
+        {
+          "courseName": "Professional Practices for IT",
+          "courseCode": "CSC110",
+          "credits": 3,
+          "marks": 85,
+          "gp": 3.7
+        },
+        {
+          "courseName": "Multivariable Calculas",
+          "courseCode": "MTH105",
+          "credits": 3,
+          "marks": 82,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Electricity, Magnetism and Optics",
+          "courseCode": "PHY120",
+          "credits": 4,
+          "marks": 82,
+          "gp": 3.3
+        }
+      ],
+      "Semester3": [
+        {
+          "courseName": "Object Oriented Programming",
+          "courseCode": "CSC241",
+          "credits": 4,
+          "marks": 76,
+          "gp": 3
+        },
+        {
+          "courseName": "Digital Logic Design",
+          "courseCode": "EEE241",
+          "credits": 4,
+          "marks": 73,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Pakistan Studies",
+          "courseCode": "HUM111",
+          "credits": 3,
+          "marks": 86,
+          "gp": 3.7
+        },
+        {
+          "courseName": "Linear Algebra",
+          "courseCode": "MTH231",
+          "credits": 3,
+          "marks": 81,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Statistics and Probability Theory",
+          "courseCode": "MTH262",
+          "credits": 3,
+          "marks": 86,
+          "gp": 3.7
+        },
+        {
+          "courseName": "Modern Physics",
+          "courseCode": "PHY229",
+          "credits": 4,
+          "marks": 83,
+          "gp": 3.3
+        }
+      ],
+      "Semester4": [
+        {
+          "courseName": "Data Structures and Algorithms",
+          "courseCode": "CSC211",
+          "credits": 4,
+          "marks": 78,
+          "gp": 3
+        },
+        {
+          "courseName": "Software Engineering Concepts",
+          "courseCode": "CSC291",
+          "credits": 3,
+          "marks": 82,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Microprocessor and Assembly Language",
+          "courseCode": "CSC321",
+          "credits": 3,
+          "marks": 75,
+          "gp": 3
+        },
+        {
+          "courseName": "Database Systems I",
+          "courseCode": "CSC371",
+          "credits": 4,
+          "marks": 75,
+          "gp": 3
+        },
+        {
+          "courseName": "Communication Skills",
+          "courseCode": "HUM103",
+          "credits": 3,
+          "marks": 86,
+          "gp": 3.7
+        },
+        {
+          "courseName": "Differential Equations",
+          "courseCode": "MTH242",
+          "credits": 3,
+          "marks": 97,
+          "gp": 4
+        }
+      ],
+      "Semester5": [
+        {
+          "courseName": "Design and Analysis of Algorithms",
+          "courseCode": "CSC301",
+          "credits": 3,
+          "marks": 76,
+          "gp": 3
+        },
+        {
+          "courseName": "Operating Systems",
+          "courseCode": "CSC322",
+          "credits": 3,
+          "marks": 80,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Data Communications and Computer Networks",
+          "courseCode": "CSC339",
+          "credits": 3,
+          "marks": 75,
+          "gp": 3
+        },
+        {
+          "courseName": "Data Warehousing and Data Mining",
+          "courseCode": "CSC496",
+          "credits": 3,
+          "marks": 81,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Numerical Computing",
+          "courseCode": "CSC475",
+          "credits": 3,
+          "marks": 85,
+          "gp": 3.7
+        }
+      ],
+      "Semester6": [
+        {
+          "courseName": "Theory of Automata",
+          "courseCode": "CSC312",
+          "credits": 4,
+          "marks": 70,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Web Technologies",
+          "courseCode": "CSC336",
+          "credits": 3,
+          "marks": 86,
+          "gp": 3.7
+        },
+        {
+          "courseName": "Machine Learning",
+          "courseCode": "CSC354",
+          "credits": 3,
+          "marks": 87,
+          "gp": 3.7
+        },
+        {
+          "courseName": "Introduction to Data Science",
+          "courseCode": "CSC461",
+          "credits": 3,
+          "marks": 68,
+          "gp": 2.3
+        },
+        {
+          "courseName": "Artificial Intelligence",
+          "courseCode": "CSC462",
+          "credits": 3,
+          "marks": 75,
+          "gp": 3
+        }
+      ],
+      "Semester7": [
+        {
+          "courseName": "Human Computer Interaction",
+          "courseCode": "CSC356",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Compiler Construction",
+          "courseCode": "CSC441",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Mobile Application Development",
+          "courseCode": "CSC303",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Computational Intelligence",
+          "courseCode": "CSC347",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Senior Design Project I",
+          "courseCode": "CSC498",
+          "credits": 2,
+          "status": "enrolled"
+        }
+      ],
+      "CGPA": 3.37
+    }
+  ]
+}
+
+
+  {
+  "batch": "SP19",
+  "regNo": "071",
+  "registrationId": "SP19-BCS-071",
+  "section": "SP19-BCS-A",
+  "semester": 7,
+  "name": "Abdul Raheem",
+  "fatherName": "Tahir Ali",
+  "email": "SP19.BCS.071@gmail.com",
+  "contactNo": "03162345678",
+  "address": "Kalma Chowk, Lahore",
+  "password": "abcd1234",
+  "batchAdvisorName": "Hassan Ali",
+  "batchAdvisorEmail": "hassansp19@gmail.com",
+  "profilePic": "/ProfilePics/sp19_071.jpg",
+  "Result": [
+    {
+      "Semester1": [
+        {
+          "courseName": "Introduction to ICT",
+          "courseCode": "CSC101",
+          "credits": 3,
+          "marks": 80,
+          "gp": 3.3
+        },
+        {
+          "courseName": "English Comprehension and Composition",
+          "courseCode": "HUM100",
+          "credits": 3,
+          "marks": 80,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Islamic Studies",
+          "courseCode": "HUM110",
+          "credits": 3,
+          "marks": 85,
+          "gp": 3.7
+        },
+        {
+          "courseName": "Calculus and Analytical Geometry",
+          "courseCode": "MTH104",
+          "credits": 3,
+          "marks": 90,
+          "gp": 4
+        },
+        {
+          "courseName": "Applied Physics for Engineers",
+          "courseCode": "PHY121",
+          "credits": 4,
+          "marks": 77,
+          "gp": 3
+        }
+      ],
+      "Semester2": [
+        {
+          "courseName": "Report Writing Skills",
+          "courseCode": "HUM102",
+          "credits": 3,
+          "marks": 87,
+          "gp": 3.7
+        },
+        {
+          "courseName": "Discrete Structures",
+          "courseCode": "CSC102",
+          "credits": 3,
+          "marks": 81,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Programming Fundamentals",
+          "courseCode": "CSC103",
+          "credits": 4,
+          "marks": 86,
+          "gp": 3.7
+        },
+        {
+          "courseName": "Professional Practices for IT",
+          "courseCode": "CSC110",
+          "credits": 3,
+          "marks": 80,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Multivariable Calculus",
+          "courseCode": "MTH105",
+          "credits": 3,
+          "marks": 70,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Electricity, Magnetism and Optics",
+          "courseCode": "PHY120",
+          "credits": 4,
+          "marks": 75,
+          "gp": 3
+        }
+      ],
+      "Semester3": [
+        {
+          "courseName": "Object Oriented Programming",
+          "courseCode": "CSC241",
+          "credits": 4,
+          "marks": 77,
+          "gp": 3
+        },
+        {
+          "courseName": "Digital Logic Design",
+          "courseCode": "EEE241",
+          "credits": 4,
+          "marks": 80,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Pakistan Studies",
+          "courseCode": "HUM111",
+          "credits": 3,
+          "marks": 77,
+          "gp": 3
+        },
+        {
+          "courseName": "Linear Algebra",
+          "courseCode": "MTH231",
+          "credits": 3,
+          "marks": 70,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Statistics and Probability Theory",
+          "courseCode": "MTH262",
+          "credits": 3,
+          "marks": 81,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Modern Physics",
+          "courseCode": "PHY229",
+          "credits": 4,
+          "marks": 81,
+          "gp": 3.3
+        }
+      ],
+      "Semester4": [
+        {
+          "courseName": "Data Structures and Algorithms",
+          "courseCode": "CSC211",
+          "credits": 4,
+          "marks": 61,
+          "gp": 2
+        },
+        {
+          "courseName": "Software Engineering Concepts",
+          "courseCode": "CSC291",
+          "credits": 3,
+          "marks": 76,
+          "gp": 3
+        },
+        {
+          "courseName": "Microprocessor and Assembly Language",
+          "courseCode": "CSC321",
+          "credits": 3,
+          "marks": 76,
+          "gp": 3
+        },
+        {
+          "courseName": "Database Systems I",
+          "courseCode": "CSC371",
+          "credits": 4,
+          "marks": 78,
+          "gp": 3
+        },
+        {
+          "courseName": "Communication Skills",
+          "courseCode": "HUM103",
+          "credits": 3,
+          "marks": 81,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Differential Equations",
+          "courseCode": "MTH242",
+          "credits": 3,
+          "marks": 98,
+          "gp": 4
+        }
+      ],
+      "Semester5": [
+        {
+          "courseName": "Design and Analysis of Algorithms",
+          "courseCode": "CSC301",
+          "credits": 3,
+          "marks": 65,
+          "gp": 2.3
+        },
+        {
+          "courseName": "Operating Systems",
+          "courseCode": "CSC322",
+          "credits": 3,
+          "marks": 75,
+          "gp": 3
+        },
+        {
+          "courseName": "Data Communications and Computer Networks",
+          "courseCode": "CSC339",
+          "credits": 3,
+          "marks": 70,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Mobile Application Development",
+          "courseCode": "CSC303",
+          "credits": 3,
+          "marks": 87,
+          "gp": 3.7
+        },
+        {
+          "courseName": "Numerical Computing",
+          "courseCode": "CSC475",
+          "credits": 3,
+          "marks": 85,
+          "gp": 3.7
+        }
+      ],
+      "Semester6": [
+        {
+          "courseName": "Theory of Automata",
+          "courseCode": "CSC312",
+          "credits": 4,
+          "marks": 68,
+          "gp": 2.3
+        },
+        {
+          "courseName": "Web Technologies",
+          "courseCode": "CSC336",
+          "credits": 3,
+          "marks": 70,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Machine Learning",
+          "courseCode": "CSC354",
+          "credits": 3,
+          "marks": 83,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Computer Vision",
+          "courseCode": "CSC455",
+          "credits": 3,
+          "marks": 78,
+          "gp": 3
+        },
+        {
+          "courseName": "Artificial Intelligence",
+          "courseCode": "CSC462",
+          "credits": 3,
+          "marks": 82,
+          "gp": 3.3
+        }
+      ],
+      "Semester7": [
+        {
+          "courseName": "Human Computer Interaction",
+          "courseCode": "CSC356",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Compiler Construction",
+          "courseCode": "CSC441",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Software Project Management",
+          "courseCode": "CSC494",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Game Development",
+          "courseCode": "CSC495",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Senior Design Project I",
+          "courseCode": "CSC498",
+          "credits": 2,
+          "status": "enrolled"
+        }
+      ],
+      "CGPA": 3.18
+    }
+  ]
+}
+
+
+ {
+  "batch": "SP19",
+  "regNo": "069",
+  "registrationId": "SP19-BCS-069",
+  "section": "FA18-BCS-B",
+  "semester": 7,
+  "name": "Tayyab Hameed",
+  "fatherName": "Abdul Hameed",
+  "email": "SP19.BCS.069@gmail.com",
+  "contactNo": "03162345678",
+  "address": "Model Town, Lahore",
+  "password": "abcd1234",
+  "batchAdvisorName": "Hassan Ali",
+  "batchAdvisorEmail": "hassansp19@gmail.com",
+  "profilePic": "/ProfilePics/sp19_069.jpg",
+  "Result": [
+    {
+      "Semester1": [
+        {
+          "courseName": "Introduction to ICT",
+          "courseCode": "CSC101",
+          "credits": 3,
+          "marks": 72,
+          "gp": 2.7
+        },
+        {
+          "courseName": "English Comprehension and Composition",
+          "courseCode": "HUM100",
+          "credits": 3,
+          "marks": 65,
+          "gp": 2.3
+        },
+        {
+          "courseName": "Islamic Studies",
+          "courseCode": "HUM110",
+          "credits": 3,
+          "marks": 44,
+          "gp": 0
+        },
+        {
+          "courseName": "Calculus and Analytical Geometry",
+          "courseCode": "MTH104",
+          "credits": 3,
+          "marks": 71,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Applied Physics for Engineers",
+          "courseCode": "PHY121",
+          "credits": 4,
+          "marks": 61,
+          "gp": 2
+        }
+      ],
+      "Semester2": [
+        {
+          "courseName": "Islamic Studies",
+          "courseCode": "HUM110",
+          "credits": 3,
+          "marks": 77,
+          "gp": 3
+        },
+        {
+          "courseName": "Discrete Structures",
+          "courseCode": "CSC102",
+          "credits": 3,
+          "marks": 80,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Programming Fundamentals",
+          "courseCode": "CSC103",
+          "credits": 4,
+          "marks": 78,
+          "gp": 3
+        },
+        {
+          "courseName": "Professional Practices for IT",
+          "courseCode": "CSC110",
+          "credits": 3,
+          "marks": 75,
+          "gp": 3
+        },
+        {
+          "courseName": "Multivariable Calculus",
+          "courseCode": "MTH105",
+          "credits": 3,
+          "marks": 80,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Electricity, Magnetism and Optics",
+          "courseCode": "PHY120",
+          "credits": 4,
+          "marks": 83,
+          "gp": 3.3
+        }
+      ],
+      "Semester3": [
+        {
+          "courseName": "Object Oriented Programming",
+          "courseCode": "CSC241",
+          "credits": 4,
+          "marks": 77,
+          "gp": 3
+        },
+        {
+          "courseName": "Digital Logic Design",
+          "courseCode": "EEE241",
+          "credits": 4,
+          "marks": 78,
+          "gp": 3
+        },
+        {
+          "courseName": "Linear Algebra",
+          "courseCode": "MTH231",
+          "credits": 3,
+          "marks": 81,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Statistics and Probability Theory",
+          "courseCode": "MTH262",
+          "credits": 3,
+          "marks": 91,
+          "gp": 4
+        },
+        {
+          "courseName": "Modern Physics",
+          "courseCode": "PHY229",
+          "credits": 4,
+          "marks": 87,
+          "gp": 3.7
+        }
+      ],
+      "Semester4": [
+        {
+          "courseName": "Data Structures and Algorithms",
+          "courseCode": "CSC211",
+          "credits": 4,
+          "marks": 67,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Software Engineering Concepts",
+          "courseCode": "CSC291",
+          "credits": 3,
+          "marks": 80,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Microprocessor and Assembly Language",
+          "courseCode": "CSC321",
+          "credits": 3,
+          "marks": 66,
+          "gp": 2.3
+        },
+        {
+          "courseName": "Database Systems I",
+          "courseCode": "CSC371",
+          "credits": 4,
+          "marks": 80,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Communication Skills",
+          "courseCode": "HUM103",
+          "credits": 3,
+          "marks": 71,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Differential Equations",
+          "courseCode": "MTH242",
+          "credits": 3,
+          "marks": 82,
+          "gp": 3.3
+        }
+      ],
+      "Semester5": [
+        {
+          "courseName": "Design and Analysis of Algorithms",
+          "courseCode": "CSC301",
+          "credits": 3,
+          "marks": 55,
+          "gp": 1.7
+        },
+        {
+          "courseName": "Operating Systems",
+          "courseCode": "CSC322",
+          "credits": 3,
+          "marks": 82,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Data Communications and Computer Networks",
+          "courseCode": "CSC339",
+          "credits": 3,
+          "marks": 72,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Computer Graphics",
+          "courseCode": "CSC353",
+          "credits": 3,
+          "marks": 81,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Numerical Computing",
+          "courseCode": "CSC475",
+          "credits": 3,
+          "marks": 72,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Pakistan Studies",
+          "courseCode": "HUM111",
+          "credits": 3,
+          "marks": 75,
+          "gp": 3
+        }
+      ],
+      "Semester6": [
+        {
+          "courseName": "Theory of Automata",
+          "courseCode": "CSC312",
+          "credits": 4,
+          "marks": 71,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Web Technologies",
+          "courseCode": "CSC336",
+          "credits": 3,
+          "marks": 62,
+          "gp": 2
+        },
+        {
+          "courseName": "Machine Learning",
+          "courseCode": "CSC354",
+          "credits": 3,
+          "marks": 40,
+          "gp": 0
+        },
+        {
+          "courseName": "Digital Image Processing",
+          "courseCode": "CSC331",
+          "credits": 3,
+          "marks": 52,
+          "gp": 1.3
+        },
+        {
+          "courseName": "Artificial Intelligence",
+          "courseCode": "CSC462",
+          "credits": 3,
+          "marks": 51,
+          "gp": 0
+        },
+        {
+          "courseName": "Report Writing Skills",
+          "courseCode": "HUM102",
+          "credits": 3,
+          "marks": 70,
+          "gp": 2.7
+        }
+      ],
+      "Semester7": [
+        {
+          "courseName": "Human Computer Interaction",
+          "courseCode": "CSC356",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Compiler Construction",
+          "courseCode": "CSC441",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Introduction to Data Science",
+          "courseCode": "CSC461",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Game Development",
+          "courseCode": "CSC495",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Senior Design Project I",
+          "courseCode": "CSC498",
+          "credits": 2,
+          "status": "enrolled"
+        }
+      ],
+      "CGPA": 2.98
+    }
+  ]
+}
+
+
+{
+  "batch": "SP19",
+  "regNo": "128",
+  "registrationId": "SP19-BCS-128",
+  "section": "FA18-BCS-B",
+  "semester": 7,
+  "name": "Hassan Iftikhar",
+  "fatherName": "Iftikhar Ahmed",
+  "email": "SP19.BCS.128@gmail.com",
+  "contactNo": "03162345678",
+  "address": "Kalma Chowk, Lahore",
+  "password": "abcd1234",
+  "batchAdvisorName": "Hassan Ali",
+  "batchAdvisorEmail": "hassansp19@gmail.com",
+  "profilePic": "/ProfilePics/sp19_128.jpg",
+  "Result": [
+    {
+      "Semester1": [
+        {
+          "courseName": "Introduction to ICT",
+          "courseCode": "CSC101",
+          "credits": 3,
+          "marks": 66,
+          "gp": 2.3
+        },
+        {
+          "courseName": "English Comprehension and Composition",
+          "courseCode": "HUM100",
+          "credits": 3,
+          "marks": 75,
+          "gp": 3
+        },
+        {
+          "courseName": "Islamic Studies",
+          "courseCode": "HUM110",
+          "credits": 3,
+          "marks": 62,
+          "gp": 2
+        },
+        {
+          "courseName": "Calculus and Analytical Geometry",
+          "courseCode": "MTH104",
+          "credits": 3,
+          "marks": 78,
+          "gp": 3
+        },
+        {
+          "courseName": "Applied Physics for Engineers",
+          "courseCode": "PHY121",
+          "credits": 4,
+          "marks": 82,
+          "gp": 3.3
+        }
+      ],
+      "Semester2": [
+        {
+          "courseName": "Report Writing Skills",
+          "courseCode": "HUM102",
+          "credits": 3,
+          "marks": 80,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Discrete Structures",
+          "courseCode": "CSC102",
+          "credits": 3,
+          "marks": 91,
+          "gp": 4
+        },
+        {
+          "courseName": "Programming Fundamentals",
+          "courseCode": "CSC103",
+          "credits": 4,
+          "marks": 73,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Professional Practices for IT",
+          "courseCode": "CSC110",
+          "credits": 3,
+          "marks": 82,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Multivariable Calculas",
+          "courseCode": "MTH105",
+          "credits": 3,
+          "marks": 70,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Electricity, Magnetism and Optics",
+          "courseCode": "PHY120",
+          "credits": 4,
+          "marks": 65,
+          "gp": 2.3
+        }
+      ],
+      "Semester3": [
+        {
+          "courseName": "Object Oriented Programming",
+          "courseCode": "CSC241",
+          "credits": 4,
+          "marks": 70,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Digital Logic Design",
+          "courseCode": "EEE241",
+          "credits": 4,
+          "marks": 72,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Pakistan Studies",
+          "courseCode": "HUM111",
+          "credits": 3,
+          "marks": 72,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Linear Algebra",
+          "courseCode": "MTH231",
+          "credits": 3,
+          "marks": 61,
+          "gp": 2
+        },
+        {
+          "courseName": "Statistics and Probability Theory",
+          "courseCode": "MTH262",
+          "credits": 3,
+          "marks": 68,
+          "gp": 2.3
+        },
+        {
+          "courseName": "Modern Physics",
+          "courseCode": "PHY229",
+          "credits": 4,
+          "marks": 65,
+          "gp": 2.3
+        }
+      ],
+      "Semester4": [
+        {
+          "courseName": "Data Structures and Algorithms",
+          "courseCode": "CSC211",
+          "credits": 4,
+          "marks": 66,
+          "gp": 2.3
+        },
+        {
+          "courseName": "Software Engineering Concepts",
+          "courseCode": "CSC291",
+          "credits": 3,
+          "marks": 75,
+          "gp": 3
+        },
+        {
+          "courseName": "Microprocessor and Assembly Language",
+          "courseCode": "CSC321",
+          "credits": 3,
+          "marks": 70,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Database Systems I",
+          "courseCode": "CSC371",
+          "credits": 4,
+          "marks": 72,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Communication Skills",
+          "courseCode": "HUM103",
+          "credits": 3,
+          "marks": 82,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Differential Equations",
+          "courseCode": "MTH242",
+          "credits": 3,
+          "marks": 89,
+          "gp": 3.7
+        }
+      ],
+      "Semester5": [
+        {
+          "courseName": "Design and Analysis of Algorithms",
+          "courseCode": "CSC301",
+          "credits": 3,
+          "marks": 66,
+          "gp": 2.3
+        },
+        {
+          "courseName": "Operating Systems",
+          "courseCode": "CSC322",
+          "credits": 3,
+          "marks": 70,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Data Communications and Computer Networks",
+          "courseCode": "CSC339",
+          "credits": 3,
+          "marks": 75,
+          "gp": 3
+        },
+        {
+          "courseName": "Mobile Application Development",
+          "courseCode": "CSC303",
+          "credits": 3,
+          "marks": 81,
+          "gp": 3.3
+        },
+        {
+          "courseName": "Numerical Computing",
+          "courseCode": "CSC475",
+          "credits": 3,
+          "marks": 85,
+          "gp": 3.7
+        }
+      ],
+      "Semester6": [
+        {
+          "courseName": "Theory of Automata",
+          "courseCode": "CSC312",
+          "credits": 4,
+          "marks": 70,
+          "gp": 2.7
+        },
+        {
+          "courseName": "Web Technologies",
+          "courseCode": "CSC336",
+          "credits": 3,
+          "marks": 91,
+          "gp": 4
+        },
+        {
+          "courseName": "Game Development",
+          "courseCode": "CSC495",
+          "credits": 3,
+          "marks": 75,
+          "gp": 3
+        },
+        {
+          "courseName": "Computer Vision",
+          "courseCode": "CSC455",
+          "credits": 3,
+          "marks": 78,
+          "gp": 3
+        },
+        {
+          "courseName": "Artificial Intelligence",
+          "courseCode": "CSC462",
+          "credits": 3,
+          "marks": 76,
+          "gp": 3
+        }
+      ],
+      "Semester7": [
+        {
+          "courseName": "Human Computer Interaction",
+          "courseCode": "CSC356",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Compiler Construction",
+          "courseCode": "CSC441",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Data Warehousing and Data Mining",
+          "courseCode": "CSC496",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Software Project Management",
+          "courseCode": "CSC494",
+          "credits": 3,
+          "status": "enrolled"
+        },
+        {
+          "courseName": "Senior Design Project I",
+          "courseCode": "CSC498",
+          "credits": 2,
+          "status": "enrolled"
+        }
+      ],
+      "CGPA": 2.80
+    }
+  ]
+}

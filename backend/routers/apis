@@ -1,0 +1,754 @@
+const express = require("express");
+const router = express.Router();
+require("../config/db");
+const bcrypt = require("bcryptjs");
+const crypto = require("crypto"); //generate unique token
+const jwt = require("jsonwebtoken");
+// const User = require("../models/users");
+const Student=require("../models/StudentModel")
+const Batchadvisor = require("../models/batchadvisor");
+const GuidanceBox = require("../models/guidance");
+const Pastpaper=require("../models/pastpaper");
+const Timetable=require("../models/timetable")
+const S_authenticate = require("../middleware/S_authenticate");
+const BA_authenticate = require("../middleware/BA_authenticate");
+const sendEmail = require("../middleware/sendemail");
+const {validatorUser,validate}=require("../middleware/validator")
+const multer = require('multer')
+
+
+//Student registration 
+router.post("/S_registration", async (req, res) => {
+  const {
+    image,
+    name,
+    father_name,
+    registration_no,
+    email,
+    address,
+    contact_no,
+    password,
+    batch,
+    roll_no,
+  } = req.body; //object destructring
+
+  if (
+    !image ||
+    !name ||
+    !father_name ||
+    !registration_no ||
+    !email ||
+    !address ||
+    !contact_no ||
+    !password ||
+    !batch ||
+    !roll_no
+  ) {
+    return res.status(422).json({ error: "enter all the field" });
+  }
+  try {
+    const userExit = await User.findOne({ email: email });
+    if (userExit) {
+      return res.status(422).json({ error: "email already present" });
+    } else {
+      const userExit = await User.findOne({ registration_no: registration_no });
+      if (userExit) {
+        return res
+          .status(422)
+          .json({ error: "registration no already present already present" });
+      } else {
+        const user = new User({
+          image,
+          name,
+          father_name,
+          registration_no,
+          email,
+          address,
+          contact_no,
+          password,
+          batch,
+          roll_no,
+        });
+        await user.save();
+        res.status(201).json({ message: "user registered successfully" });
+      }
+    }
+    //  else if (password != cpassword) { return res.status(422).json({ error: "confirm password wrong" }) }
+  } catch (error) {
+    console.log(error);
+  }
+});
+//post data for batchadvisor
+router.post("/bregister", async (req, res) => {
+  const { image, name, email, contact_no, password,batch } = req.body; //object destructring
+
+  if (!image || !name || !email || !contact_no || !password||!batch) {
+    return res.status(422).json({ error: "enter all the field" });
+  }
+  try {
+    const userExit = await Batchadvisor.findOne({ email: email });
+    if (userExit) {
+      return res.status(422).json({ error: "email already present" });
+    } else {
+      const user = new Batchadvisor({
+        image,
+        name,
+        email,
+        contact_no,
+        password,
+        batch
+      });
+
+      await user.save();
+      res.status(201).json({ message: "user registered successfully" });
+    }
+    //  else if (password != cpassword) { return res.status(422).json({ error: "confirm password wrong" }) }
+  } catch (error) {
+    console.log(error);
+  }
+});
+//update password
+router.put("/updatepassword", S_authenticate, async (req, res) => {
+  const { old_password, new_password, confirm_password } = req.body;
+  if (!old_password || !new_password || !confirm_password) {
+    return res.status(400).json({ error: "filled the data" });
+  }
+  const user = await User.findById(req.rootuser);
+  //  console.log("Refeded");
+  const isMatched = await bcrypt.compare(old_password, user.password);
+  //  console.log("dhgafvasd");
+  if (!isMatched) {
+    return res.status(400).json({ error: "Old password is not Correct" });
+  } else if (new_password != confirm_password) {
+    return res.status(400).json({ error: "confirm password does not match" });
+  }
+  user.password = new_password;
+  await user.save();
+  //  sendToken(user, 200, res)
+  res.status(200).send("Password updated successfully");
+});
+//update contact number
+
+router.put("/S_updatecontact", S_authenticate, async (req, res) => {
+  const user = await User.findById(req.rootuser);
+  //  console.log("Refeded");
+  try {
+    user.contact_no = req.body.contact_no;
+    await user.save();
+    res.status(200).send("phone number updated successfully");
+  } catch (error) {
+    return res
+      .status(400)
+      .json({ error: "enter the number in correct format" });
+  }
+});
+//update password batch advisor
+router.put("/Batchadvisorupdatepassword", BA_authenticate, async (req, res) => {
+  const { old_password, new_password, confirm_password } = req.body;
+  if (!old_password || !new_password || !confirm_password) {
+    return res.status(400).json({ error: "filled the data" });
+  }
+  const user = await Batchadvisor.findById(req.rootuser);
+  //  console.log("Refeded");
+  const isMatched = await bcrypt.compare(old_password, user.password);
+  //  console.log("dhgafvasd");
+  if (!isMatched) {
+    return res.status(400).json({ error: "Old password is not Correct" });
+  } else if (new_password != confirm_password) {
+    return res.status(400).json({ error: "confirm password does not match" });
+  }
+  user.password = new_password;
+  await user.save();
+  //  sendToken(user, 200, res)
+  res.status(200).send("Password updated successfully");
+});
+//update contact number batch advisor
+
+router.put("/BA_updatecontact", BA_authenticate, async (req, res) => {
+  const user = await Batchadvisor.findById(req.rootuser);
+  console.log("Refeded");
+  try {
+    user.contact_no = req.body.contact_no;
+    await user.save();
+    res.status(200).send("phone number updated successfully");
+  } catch (error) {
+    return res
+      .status(400)
+      .json({ error: "enter the number in correct format" });
+  }
+});
+//for  student  login
+router.post("/Studentlogin", async (req, res) => {
+  try {
+    const { batch, roll_no, password } = req.body;
+    //filled the filed or not
+    if (!batch || !roll_no || !password) {
+      return res.status(400).json({ error: "filled the data" });
+    }
+    const registration_no = batch.concat("-BCS-", roll_no);
+    console.log(registration_no);
+    const userlogin = await User.findOne({ registration_no: registration_no });
+    if (userlogin) {
+      //check password from database
+      const ismatch = await bcrypt.compare(password, userlogin.password);
+      if (!ismatch) {
+        return res.status(400).json({ error: "incorrect password" });
+      } else {
+        //toekn
+        const token = await userlogin.generateAuthToken();
+        console.log(token);
+        //add cookies
+        res.cookie("jwtoken", token, {
+          expires: new Date(Date.now() + 2443000),
+          httpOnly: true,
+        });
+        res.status(200).json({ message: "user signin successfully" });
+      }
+    } else {
+      res.status(400).json({ error: "INCORRECT registration no" });
+    }
+  } catch (error) {
+    console.log(error);
+  }
+});
+//for batch advisor login
+router.post("/BatchAdvisorlogin", async (req, res) => {
+  try {
+    const { email, password } = req.body;
+    //filled the filed or not
+    if (!email || !password) {
+      return res.status(400).json({ error: "filled the data" });
+    }
+    const userlogin = await Batchadvisor.findOne({ email: email });
+    if (userlogin) {
+      //check password from database
+      const ismatch = await bcrypt.compare(password, userlogin.password);
+      if (!ismatch) {
+        return res.status(400).json({ error: "incorrect password" });
+      } else {
+        //toekn
+        const token = await userlogin.generateAuthToken();
+        console.log(token);
+        //add cookies
+        res.cookie("Bjwtoken", token, {
+          expires: new Date(Date.now() + 244300000),
+          httpOnly: true,
+        });
+        res.status(200).json({ message: "user signin successfully" });
+      }
+    } else {
+      res.status(400).json({ error: "INCORRECT Email" });
+    }
+  } catch (error) {
+    console.log(error);
+  }
+});
+// view profile for batchadvisor
+router.get("/BatchAdvisorprofile", BA_authenticate, async (req, res) => {
+  console.log("Get the data");
+  res.status(200).send(req.rootuser);
+});
+
+//getdata for topmenu of batchadvisor
+router.get("/Batchadvisortopmenu", BA_authenticate, async (req, res) => {
+  console.log("get top menu");
+  res.status(200).send(req.rootuser);
+});
+// view profile
+router.get("/Studentprofile", S_authenticate, async (req, res) => {
+  console.log("Get the data");
+  res.status(200).send(req.rootuser);
+});
+
+//getdata for topmenu
+router.get("/topmenu", S_authenticate, async (req, res) => {
+  console.log("get top menu");
+  res.status(200).send(req.rootuser);
+});
+
+//student logout
+router.get("/Studentlogout", (req, res) => {
+  res.clearCookie("jwtoken", { path: "/" });
+  res.status(200).send("user logout");
+});
+
+//student logout
+router.get("/Batchadvisorlogout", (req, res) => {
+  res.clearCookie("Bjwtoken", { path: "/" });
+  res.status(200).send("user logout");
+});
+//Guidance Box
+//need guidance
+router.get("/needguidance/:course", async (req, res) => {
+  try {
+    const course = req.params.course;
+    console.log(course)
+    const data = await GuidanceBox.find(
+      { courses: { $elemMatch: { course: course } } }
+    );
+    if (!data) {
+      res.status(400).send("error");
+    } else {
+      console.log(data);
+      res.status(200).send(data);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+});
+//want to guide
+router.post("/want-to-guide", S_authenticate, async (req, res) => {
+  try {
+    const course = req.body.course;
+    const user = req.rootuser;
+    const registration_no = user.registration_no;
+    const name = user.name;
+    const email = user.email;
+    const box = await GuidanceBox.findOne({ registration_no: registration_no });
+    if (!box) {
+      const guide = new GuidanceBox({ registration_no, name, email });
+      await guide.save();
+      await guide.add(course);
+      await guide.save();
+      res.send(guide);
+    } else{const array = await box.courses.length;
+        console.log(array);
+        if(array===0){
+          await box.add(course);
+          await box.save();
+          res.send(box);
+        }
+        else if(array===1){
+          if(box.courses[array-1].course===course){
+            return res.status(400).send("already present");
+          }else{
+            await box.add(course);
+            await box.save();
+            res.send(box);
+          }
+        }else if(array==2){
+          if(box.courses[array-1].course===course||box.courses[array-2].course===course){
+            return res.status(400).send("already present");
+        }else{
+          await box.add(course);
+          await box.save();
+          res.send(box);
+        }
+        // add data with array
+        // else if (array < 3) {
+        //   await box.add(course);
+        //   await box.save();
+        //   res.send(box);
+        } else {
+          res.status(400).send("limit full");
+        }
+      }
+  } catch (error) {
+    console.log(error);
+  }
+});
+//delete the course that added for guide
+router.delete("/delete_course/:course", S_authenticate, async (req, res) => {
+  try {
+    const course = req.params.course;
+
+    console.log(course)
+    // console.log("first")
+    const user = req.rootuser;
+    const registration_no = user.registration_no;
+    const record = await GuidanceBox.findOne({
+      registration_no: registration_no,
+    });
+    //  console.log(record.courses[2].course)
+
+    if (!record) {
+      res.send("no record");
+    } else {
+      if (record.courses[0].course === course) {
+        console.log(course);
+        let i = 1;
+        await record.delcourses(i);
+        res.send("deleted");
+      } else if (record.courses[1].course === course) {
+        let i = 2;
+        await record.delcourses(i);
+        res.send("deleted");
+      } else if (record.courses[2].course === course) {
+        let i = 3;
+        await record.delcourses(i);
+        res.send("deleted");
+      } else {
+        res.send("no course found");
+      }
+    }
+  } catch (e) {
+    res.status(500).send(e);
+  }
+});
+//GET the data
+router.get("/guide_courses", S_authenticate, async (req, res) => {
+  const user = req.rootuser;
+  const registration_no = user.registration_no;
+  const box = await GuidanceBox.findOne({ registration_no: registration_no });
+  if (!box) {
+    res.status(400).send("no record found");
+  } else {
+    //  console.log(box);
+    console.log("grt data");
+    res.send(box.courses);
+  }
+});
+//reset password email for student
+router.post("/S_sendresetemail", async (req, res) => {
+  try {
+    const { email } = req.body;
+    crypto.randomBytes(32, async (err, buffer) => {
+      if (err) {
+        console.log(err);
+      } else {
+        const token = buffer.toString("hex");
+        const user = await User.findOne({ email });
+        //  console.log(user)
+        if (!user) {
+          return res.status(422).json({ error: "user does not found" });
+        } else {
+          user.resettoken = token;
+          user.expiretoken = Date.now() + 3600000;
+          await user.save();
+          //  console.log(user);
+          const to = user.email;
+          const from = "z6680362@gmail.com";
+          const subject = "reset password link";
+          const html = `
+                         <div
+                           style="
+                             text-align: center;
+                             background-color: rgb(255, 193, 122);
+                             margin-left: 00px;
+                             margin-right: 00px;
+                             padding-top: 1px;
+                             padding-bottom: 70px;
+                           "
+                         >
+                           <h2>Tipster</h2>
+                           <h4 style="margin-top: -20px">A Digital Batch Advisor</h4>
+                           <div>
+                             <div
+                               style="
+                                 background-color: rgb(255, 255, 255);
+                                 margin-left: 30px;
+                                 margin-right: 30px;
+                                 padding-top: 30px;
+                                 padding-bottom: 30px;
+                                 border-radius: 5px;
+                               "
+                             >
+                               <form action="">
+                                 <h3 style="display: inline">Hello</h3>
+                                 <h3 style="display: inline">${user.name},</h3>
+                                 <h2>Forgot your password?</h2>
+                                 <p style="font-size: 18px; padding-top: 10px">
+                                   That's okay, it happens! Click on the button <br />below to reset
+                                   your password.
+                                 </p>
+                                 <button
+                                   style="
+                                     background-color: rgb(0, 30, 129);
+                                     padding: 10px 10px 10px 10px;
+                                     border: none;
+                                     border-radius: 5px;
+                                     font-weight: bold;
+                                     margin-top: 10px;
+                                     color: white;
+                                   "
+                                 ><a href="http://localhost:3000/NewStudentPassword/${token}">
+                                   RESET YOUR PASSWORD
+                                 </button>
+                                 <h4 style="margin-top: 40px; font-size: 15px">Regards,</h4>
+                                 <h4 style="margin-top: -20px; font-size: 15px">The Tipster Team</h4>
+                               </form>
+                             </div>
+                           </div>
+                         </div>
+                                          
+                     `;
+          await sendEmail(to, from, subject, html);
+          res.status(200).send("email send");
+
+          //  const msg = {
+          //      to: "user.email",
+          //      from: "z6680362@gmail.com",
+          //      subject: "for reset Password",
+          //      html: `
+          //    <p>hfdsfgdsjfgdsfgsjdfgdsgf</p>
+          //    <h5>link in this <a href="http://localhost:3000/reset/${token}">link</a> to reset</h5>
+          //   `
+          //  }
+        }
+      }
+    });
+  } catch (error) {
+    console.log(error);
+  }
+});
+//reset password email for batchadvisor
+router.post("/BA_sendresetemail", async (req, res) => {
+  try {
+    const { email } = req.body;
+    crypto.randomBytes(32, async (err, buffer) => {
+      if (err) {
+        console.log(err);
+      } else {
+        const token = buffer.toString("hex");
+        const user = await Batchadvisor.findOne({ email });
+         console.log(user)
+        if(!user) {
+          return res.status(422).json({ error: "user does not found" });
+        } else {
+          user.resettoken = token;
+          user.expiretoken = Date.now() + 3600000;
+          await user.save();
+           console.log(user);
+          const to = user.email;
+          const from = "z6680362@gmail.com";
+          const subject = "reset password link";
+          const html = `
+                         <div
+                           style="
+                             text-align: center;
+                             background-color: rgb(255, 193, 122);
+                             margin-left: 00px;
+                             margin-right: 00px;
+                             padding-top: 1px;
+                             padding-bottom: 70px;
+                           "
+                         >
+                           <h2>Tipster</h2>
+                           <h4 style="margin-top: -20px">A Digital Batch Advisor</h4>
+                           <div>
+                             <div
+                               style="
+                                 background-color: rgb(255, 255, 255);
+                                 margin-left: 30px;
+                                 margin-right: 30px;
+                                 padding-top: 30px;
+                                 padding-bottom: 30px;
+                                 border-radius: 5px;
+                               "
+                             >
+                               <form action="">
+                                 <h3 style="display: inline">Hello</h3>
+                                 <h3 style="display: inline">${user.name},</h3>
+                                 <h2>Forgot your password?</h2>
+                                 <p style="font-size: 18px; padding-top: 10px">
+                                   That's okay, it happens! Click on the button <br />below to reset
+                                   your password.
+                                 </p>
+                                 <button
+                                   style="
+                                     background-color: rgb(0, 30, 129);
+                                     padding: 10px 10px 10px 10px;
+                                     border: none;
+                                     border-radius: 5px;
+                                     font-weight: bold;
+                                     margin-top: 10px;
+                                     color: white;
+                                   "
+                                 ><a href="http://localhost:3000/NewBatchAdvisorPassword/${token}">
+                                   RESET YOUR PASSWORD
+                                 </button>
+                                 <h4 style="margin-top: 40px; font-size: 15px">Regards,</h4>
+                                 <h4 style="margin-top: -20px; font-size: 15px">The Tipster Team</h4>
+                               </form>
+                             </div>
+                           </div>
+                         </div>
+                                          
+                     `;
+          await sendEmail(to, from, subject, html);
+          res.status(200).send("email send");
+
+          //  const msg = {
+          //      to: "user.email",
+          //      from: "z6680362@gmail.com",
+          //      subject: "for reset Password",
+          //      html: `
+          //    <p>hfdsfgdsjfgdsfgsjdfgdsgf</p>
+          //    <h5>link in this <a href="http://localhost:3000/NewBatchAdvisorPassword/${token}">link</a> to reset</h5>
+          //   `
+          //  }
+        }
+      }
+    });
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+//reset password for student
+router.put("/S_resetpassword", async (req, res) => {
+  try {
+    const { new_password, confirm_password } = req.body;
+    const sentToken = req.body.token;
+    if (!new_password || !confirm_password) {
+      return res.status(400).json({ error: "filled the data" });
+    }
+    if (new_password != confirm_password) {
+      return res.status(400).json({ error: "confirm password does not match" });
+    }
+    console.log(new_password);
+    const user = await User.findOne({
+      resettoken: sentToken,
+      expiretoken: { $gt: Date.now() },
+    });
+    //  console.log(user)
+    if (!user) {
+      res.status(422).json({ error: "token expire" });
+    }
+
+    //  const user = await User.findById(req.rootuser);
+    //  console.log("Refeded");
+
+    user.password = new_password;
+    user.resettoken = undefined;
+    user.expiretoken = undefined;
+    await user.save();
+    //  sendToken(user, 200, res)
+    res.status(200).send("Password updated successfully");
+  } catch (error) {
+    console.log(error);
+  }
+});
+//reset password for batchadvisor
+router.put("/BA_resetpassword", async (req, res) => {
+  try {
+    const { new_password, confirm_password } = req.body;
+    const sentToken = req.body.token;
+    if (!new_password || !confirm_password) {
+      return res.status(400).json({ error: "filled the data" });
+    }
+    if (new_password != confirm_password) {
+      return res.status(400).json({ error: "confirm password does not match" });
+    }
+    console.log(new_password);
+    const user = await Batchadvisor.findOne({
+      resettoken: sentToken,
+      expiretoken: { $gt: Date.now() },
+    });
+    //  console.log(user)
+    if (!user) {
+      res.status(422).json({ error: "token expire" });
+    }
+
+    //  const user = await User.findById(req.rootuser);
+    //  console.log("Refeded");
+
+    user.password = new_password;
+    user.resettoken = undefined;
+    user.expiretoken = undefined;
+    await user.save();
+    //  sendToken(user, 200, res)
+    res.status(200).send("Password updated successfully");
+  } catch (error) {
+    console.log(error);
+  }
+});
+//PAST PAPER
+//view pastpaper
+router.get("/papers/:course_title/:paper_type/:session", async (req, res) => {
+  try {
+    const searchField1 = req.params.course_title;
+    const searchField2 = req.params.paper_type;
+    const searchField3 = req.params.session;
+    console.log(searchField1)
+    const data=await Pastpaper.find({
+        course_title: {
+            $regex: searchField1, $options: '$eq'
+        },
+        paper_type: {
+            $regex: searchField2, $options: '$eq'
+        },
+        session: {
+            $regex: searchField3, $options: '$eq'
+        }
+    })
+    if(!data){
+      res.status(200).send("no record found")
+    }
+    else{
+      res.status(200).send(data)
+    }
+  } catch (error) {
+    res.status.send(error)
+  }
+});
+
+  const storage = multer.diskStorage({
+    destination: (req,file,cb)=>{
+      cb(null,"../frontend/public/image")
+    },
+    filename: function (req, file, cb) {
+        cb(null,file.originalname)
+    }
+  });
+
+  const upload = multer({
+    storage: storage,
+    fileFilter: (req, file, cb) => {
+        if (file.mimetype == "application/pdf") {
+            (cb(null, true)) ;
+        } else {
+            cb(null, false);
+            // res.send("only pdf alloowed")
+            // return (cb(new Error('Only .pdf  format allowed!')));
+        }
+    }
+  }) 
+ 
+//upload pastpaper
+router.post("/upload_pastpapers",upload.single('paper'),async (req, res) => {
+  try {
+    const uploadpaper = new Pastpaper({
+      course_title:req.body.course_title,
+      paper_type:req.body.paper_type,
+      session:req.body.session,
+      paper:{
+        data:req.file.filename,
+        contentType:"pdf",
+        path:req.file.path
+      },
+      paper_name:req.file.filename         
+     })
+      
+    
+    if(!uploadpaper){
+      res.status(400).send("eroor")
+    }
+    else{
+      await uploadpaper.save();
+      res.send(uploadpaper)
+    }
+  } catch (error) {
+    res.send("erroor")
+  }   
+  })
+
+  //studentsindormations
+  router.get("/StudentsInformations",BA_authenticate,async (req,res)=>{
+    try {
+      const data=req.rootuser;
+      console.log(data)
+      const batch=data.batch;
+      console.log(batch)
+      const detail= await User.find({batch:batch})
+      if(!detail)
+      res.status(400).send("error");
+      else{
+        res.send(detail);
+      }
+    } catch (error) {
+      res.status(400).send(error)
+    }    
+  })
+
+module.exports = router;

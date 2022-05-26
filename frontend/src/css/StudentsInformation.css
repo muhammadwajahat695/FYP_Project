@@ -1,0 +1,24 @@
+.regCol {
+    width: 190px;
+    height: 25px;
+  }
+  .nameCol {
+    width: 350px;
+    height: 25px;
+  }
+  .secCol {
+    width: 200px;
+    height: 25px;
+  }
+  .emailCol {
+    width: 290px;
+    height: 25px;
+  }
+  .cgpaCol {
+    width: 120px;
+    height: 25px;
+  }
+  .transCol {
+    width: 130px;
+    height: 25px;
+  }

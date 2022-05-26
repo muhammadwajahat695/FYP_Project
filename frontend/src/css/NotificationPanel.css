@@ -1,0 +1,28 @@
+.notification-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 1200px;
+    /* margin-top: 300px; */
+    z-index: 2;
+    height: 750px;
+    width: 400px ;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    /* padding: 40px 30px 20px 30px; */
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .notification-popup .close-btn {
+    position: absolute;
+    top: 23px;
+    left: 16px;
+    height: 22px;
+    width: 22px;
+  }
+  
+  .close-btn:hover {
+    transform: scale(1.1);
+  }

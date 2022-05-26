@@ -1,0 +1,133 @@
+.receivedmsgscontainer {
+    background-color: rgb(231, 231, 231);
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 350px;
+    margin-top: -20px;
+    border-radius: 0px 0px 5px 5px;
+    z-index: -1;
+  }
+
+  .stdRegCol{
+    width: 15%;
+    font-size: 16px;
+  }
+
+  .stdNameCol{
+    width: 25%;
+    font-size: 16px;
+  }
+  .highlightedCol{
+    width: 38%;
+    font-size: 16px;
+  }
+  
+  .dateCol{
+    width: 15%;
+    font-size: 16px;
+  }
+
+  .delCol{
+    width: 7%;
+    font-size: 16px;
+  }
+  
+  .tablerows{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .highlightedRow{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .highlightedRow:hover{
+    color: blue;
+  }
+  
+  .msgthreadcontainer {
+    /* overflow: scroll;
+    white-space: nowrap; */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    background-color: rgb(231, 231, 231);
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 330px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid rgb(152, 152, 152); */
+  
+  }
+  
+  .subjectHeading{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  
+  .Sent{
+    border: 1px solid black;
+    display: table;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 10px 10px 0px 10px;
+      font-size: 18px;
+    background-color: rgb(108, 255, 108);
+    border: 1px solid rgb(108, 255, 108);
+    border-radius: 10px;
+  }
+  
+  .Received{
+    border: 1px solid black;
+    display: table;
+    float: left;
+    margin-left: 20px;
+    width: fit-content;
+    margin-top: 20px;
+    padding: 10px 10px 0px 10px;
+    font-size: 18px;
+    background-color: rgb(108, 211, 255);
+    border: 1px solid rgb(108, 211, 255);
+    border-radius: 10px;
+  }
+  
+  .time{
+    font-size: 12px;
+    float: right;
+  }
+  
+  .backToInbox {
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    display: inline;
+    position: absolute;
+    margin-left: -580px;
+  }
+  
+  .msgTextArea{
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: sticky;
+    background-color: rgb(224, 224, 224);
+  }
+  
+  .msgTextAreaContainer{
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    margin: 0px 150px 0px 150px;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px 0px 10px 0px;
+  }
+  
+  .sendMessageIcon{
+    height: 33px;
+    width: 33px;
+    margin-left: 10px;
+  }  

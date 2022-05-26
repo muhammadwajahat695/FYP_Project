@@ -1,0 +1,49 @@
+.transcriptContainer {
+    background-color: white;
+    padding: 30px;
+    margin: -90px 350px 0px 350px;
+  }
+  
+  .transcript {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .datalabel {
+    display: inline;
+  }
+  
+  .data {
+    display: inline;
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  
+  .semlabel {
+    display: inline;
+  }
+  
+  .sem {
+    display: inline;
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  
+  .transcriptTable {
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  
+  .GPCol {
+    width: 120px;
+  }
+  
+  .creditCol {
+    width: 120px;
+  }
+  
+  .arrowIcon {
+    height: 30px;
+    width: 30px;
+    margin: 40px 0px 0px 310px;
+  }

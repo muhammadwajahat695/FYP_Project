@@ -1,0 +1,384 @@
+{
+    "batch": "FA21",
+    "regNo": "056",
+    "section": "FA21-BCS-A",
+    "registrationId": "FA21-BCS-056",
+    "semester": 2,
+    "name": "Ahad Ali",
+    "fatherName": "Muhammad Ali",
+    "email": "FA21.BCS.056@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Wapda Town, Lahore",
+    "password": "abcd1234",
+    "batchAdvisorName": "Ejaz Ali",
+    "batchAdvisorEmail": "ejazalifa21@gmail.com",
+    "profilePic": "/ProfilePics/fa21_056.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "marks": 80,
+                 "gp": 3.3
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM100",
+                 "credits": 3,
+                 "marks": 76,
+                 "gp": 3
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "marks": 78,
+                 "gp": 3
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "marks": 91,
+                 "gp": 4
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4,
+                 "marks": 91,
+                 "gp": 4
+             }
+         ],
+         "Semester2":[
+               {
+                 "courseName": "Discrete Structures",
+                 "courseCode": "CSC102",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Programming Fundamentals",
+                 "courseCode": "CSC103",
+                 "credits": 4,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Professional Practices for IT",
+                 "courseCode": "CSC110",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                "courseName": "Report Writing Skills",
+                "courseCode": "HUM102",
+                "credits": 3,
+                "status": "enrolled"
+            },
+               {
+                 "courseName": "Multivariable Calculus",
+                 "courseCode": "MTH105",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Electricity, Magnetism and Optics",
+                 "courseCode": "PHY120",
+                 "credits": 4,
+                 "status": "enrolled"
+             }
+         ],
+         "CGPA": 3.49
+     }
+     ]
+  }
+
+
+  {
+    "batch": "FA21",
+    "regNo": "137",
+    "section": "FA21-BCS-A",
+    "registrationId": "FA21-BCS-137",
+    "semester": 2,
+    "name": "Hamza Jamil",
+    "fatherName": "Muhammad Jamil",
+    "email": "FA21.BCS.137@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Johar Town, Lahore",
+    "password": "abcd1234",
+    "batchAdvisorName": "Ejaz Ali",
+    "batchAdvisorEmail": "ejazalifa21@gmail.com",
+    "profilePic": "/ProfilePics/fa21_137.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "marks": 72,
+                 "gp": 2.7
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM100",
+                 "credits": 3,
+                 "marks": 65,
+                 "gp": 2.3
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "marks": 45,
+                 "gp": 0
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "marks": 71,
+                 "gp": 2.7
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4,
+                 "marks": 61,
+                 "gp": 2
+             }
+         ],
+         "Semester2":[
+               {
+                 "courseName": "Discrete Structures",
+                 "courseCode": "CSC102",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Programming Fundamentals",
+                 "courseCode": "CSC103",
+                 "credits": 4,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Professional Practices for IT",
+                 "courseCode": "CSC110",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Multivariable Calculus",
+                 "courseCode": "MTH105",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Electricity, Magnetism and Optics",
+                 "courseCode": "PHY120",
+                 "credits": 4,
+                 "status": "enrolled"
+             }
+         ],
+         "CGPA": 1.94
+     }
+     ]
+  }
+
+
+  {
+    "batch": "FA21",
+    "regNo": "121",
+    "registrationId": "FA21-BCS-121",
+    "section": "FA21-BCS-B",
+    "semester": 2,
+    "name": "Abdul Haseeb",
+    "fatherName": "Muhammad Ali",
+    "email": "FA21.BCS.121@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Model Town, Lahore",
+    "password": "abcd1234",
+    "batchAdvisorName": "Ejaz Ali",
+    "batchAdvisorEmail": "ejazalifa21@gmail.com",
+    "profilePic": "/ProfilePics/fa21_121.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "marks": 80,
+                 "gp": 3.3
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM100",
+                 "credits": 3,
+                 "marks": 77,
+                 "gp": 3
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "marks": 85,
+                 "gp": 3.7
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "marks": 85,
+                 "gp": 3.7
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4,
+                 "marks": 83,
+                 "gp": 3.3
+             }
+         ],
+         "Semester2":[
+               {
+                 "courseName": "Discrete Structures",
+                 "courseCode": "CSC102",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Programming Fundamentals",
+                 "courseCode": "CSC103",
+                 "credits": 4,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Professional Practices for IT",
+                 "courseCode": "CSC110",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                "courseName": "Report Writing Skills",
+                "courseCode": "HUM102",
+                "credits": 3,
+                "status": "enrolled"
+            },
+               {
+                 "courseName": "Multivariable Calculus",
+                 "courseCode": "MTH105",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Electricity, Magnetism and Optics",
+                 "courseCode": "PHY120",
+                 "credits": 4,
+                 "status": "enrolled"
+             }
+         ],
+         "CGPA": 3.39
+     }
+     ]
+  }
+
+
+  {
+    "batch": "FA21",
+    "regNo": "101",
+    "registrationId": "FA21-BCS-101",
+    "section": "FA21-BCS-B",
+    "semester": 2,
+    "name": "Abubakar Amjad",
+    "fatherName": "Amjad Ali",
+    "email": "FA21.BCS.101@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Faisal Town, Lahore",
+    "password": "abcd1234",
+    "batchAdvisorName": "Ejaz Ali",
+    "batchAdvisorEmail": "ejazalifa21@gmail.com",
+    "profilePic": "/ProfilePics/fa21_101.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "marks": 80,
+                 "gp": 3.3
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM100",
+                 "credits": 3,
+                 "marks": 75,
+                 "gp": 3
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "marks": 54,
+                 "gp": 1.3
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "marks": 77,
+                 "gp": 3
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4,
+                 "marks": 70,
+                 "gp": 2.7
+             }
+         ],
+         "Semester2":[
+               {
+                 "courseName": "Discrete Structures",
+                 "courseCode": "CSC102",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Programming Fundamentals",
+                 "courseCode": "CSC103",
+                 "credits": 4,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Professional Practices for IT",
+                 "courseCode": "CSC110",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                "courseName": "Report Writing Skills",
+                "courseCode": "HUM102",
+                "credits": 3,
+                "status": "enrolled"
+            },
+               {
+                 "courseName": "Multivariable Calculus",
+                 "courseCode": "MTH105",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Electricity, Magnetism and Optics",
+                 "courseCode": "PHY120",
+                 "credits": 4,
+                 "status": "enrolled"
+             }
+         ],
+         "CGPA": 2.66
+     }
+     ]
+  }

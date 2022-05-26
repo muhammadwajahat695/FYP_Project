@@ -1,0 +1,106 @@
+.maincontainer {
+  background: url(./../images/StudentLoginBg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 95vh;
+  width: 100vw;
+  margin-left: -8px;
+  margin-top: -22px;
+}
+
+.container2 {
+  background-color: #ebebeb;
+  display: table;
+  margin: 110px 0px 0px 600px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.stdlogin {
+  text-align: center;
+}
+.regNoLabel {
+  font-weight: normal;
+}
+.batchinput {
+  width: 100px;
+  height: 39px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 16px;
+}
+
+.department {
+  width: 100px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 16px;
+}
+.department::placeholder {
+  color: black;
+}
+.regNo {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 16px;
+}
+.password {
+  width: 327px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 16px;
+}
+.password::placeholder {
+  color: black;
+}
+.btn {
+  background-color: black;
+  color: white;
+  padding: 8px 146px 8px 146px;
+  margin-top: 18px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+/* .title {
+  width: 20%;
+  margin-left: 100px;
+}
+.tagline {
+  margin-top: -25px;
+  width: 20%;
+  margin-left: 100px;
+} */
+.img {
+  height: 55vh;
+  width: 209vh;
+  position: relative;
+}
+/* .console {
+  float: right;
+  margin-top: 100px;
+  margin-right: 100px;
+} */
+.forgotPassword {
+  text-align: center;
+  font-weight: normal;
+  color: black;
+}
+
+.console {
+  font-size: 28px;
+}
+
+.icon {
+  height: 27px;
+  width: 27px;
+}

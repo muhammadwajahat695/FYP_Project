@@ -1,0 +1,46 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 700px;
+  margin-top: 300px;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 40px 30px 20px 30px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.popup .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  height: 20px;
+  width: 20px;
+}
+
+.close-btn:hover {
+  transform: scale(1.1);
+}
+.newcontactlabel {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+.newcontactinput {
+  width: 200px;
+  height: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.newcontactbutton {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+}

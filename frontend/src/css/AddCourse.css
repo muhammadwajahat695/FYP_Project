@@ -1,0 +1,186 @@
+.AddCourseFormContainer {
+  background-color: #e7e7e7;
+  margin-left: 150px;
+  margin-right: 65%;
+  height: 406px;
+  margin-top: -20px;
+  border-radius: 0px 0px 0px 5px;
+  text-align: center;
+  padding: 1px 30px 0px 30px;
+}
+
+.AddCourseTableContainer {
+  background-color: rgb(231, 231, 231);
+  margin-left: 35%;
+  margin-right: 150px;
+  height: 327px;
+  margin-top: -407px;
+  padding-top: 80px;
+  border-radius: 0px 0px 5px 0px;
+  text-align: center;
+}
+
+.courseTitle {
+  width: 300px;
+  height: 500px;
+}
+
+.notchedOutline {
+  border-width: "1px";
+  border-color: "yellow !important";
+}
+
+.CourseTitleandReasonInput {
+  width: 350px;
+  height: 35px;
+  /* padding: 0px 268px 12px 0px; */
+  font-size: 16px;
+  /* margin: 10px 0px 15px 40px; */
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 0%;
+}
+
+.SectionInput {
+  width: 350px;
+  height: 35px;
+  /* padding: 0px 268px 12px 0px; */
+  font-size: 16px;
+  /* margin: 10px 0px 15px 40px; */
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 6%;
+}
+.CourseCodeandCreditsInput {
+  width: 343px;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 22px;
+  border: 1.5px solid;
+}
+/* 
+.CourseCodeandCreditsInput::placeholder {
+  color: black;
+} */
+
+.AddReasonInput {
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 1px solid;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.AddReasonInput::placeholder {
+  font-size: 15px;
+}
+
+.Addbutton {
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 7px 25px 7px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.AddCourseTable,
+th,
+td {
+  width: 860px;
+  margin-left: 0px;
+  font-size: 15px;
+}
+
+.CourseCodeColumn {
+  width: 95px;
+}
+
+.CourseTitleColumn {
+  width: 200px;
+}
+
+.CreditsColumn {
+  width: 75px;
+}
+
+.SectionColumn {
+  width: 100px;
+}
+
+.PrereqCourseColumn {
+  width: 200px;
+}
+
+.PretestColumn {
+  width: 100px;
+}
+
+.DeleteColumn {
+  width: 60px;
+}
+
+.AddedCourseDelBtn {
+  height: 25px;
+  width: 25px;
+}
+
+.AddCourseSubmitButton {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 7px 20px 7px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.FeeChallanLabel {
+  font-weight: bold;
+}
+
+.AddCourseMainPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 650px;
+  margin-top: 300px;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 40px 30px 20px 30px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid black;
+  width: 220px;
+}
+
+.AddCourseMainPopup .closebutton {
+  position: absolute;
+  top: 16px;
+  right: 26px;
+  height: 20px;
+  width: 20px;
+}
+
+.DeleteConfirmation {
+  margin-top: 10px;
+}
+
+.DeleteAddedCourseButton {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+}
+
+.credits{
+  font-weight: lighter;
+}
+
+.upload{
+  margin-left: 5px;
+}

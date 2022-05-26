@@ -1,0 +1,279 @@
+.homemenu {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  display: inline-table;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-right: 83px;
+}
+
+.homemenu:hover {
+  background-color: rgb(133, 133, 133);
+
+}
+
+.addcoursemenu {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  display: inline-table;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 83px;
+}
+
+.addcoursemenu:hover {
+  background-color: rgb(133, 133, 133);
+
+ 
+}
+
+.repeatcoursemenu {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  display: inline-table;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 83px;
+}
+
+.repeatcoursemenu:hover {
+  background-color: rgb(133, 133, 133);
+
+  
+}
+
+.freezesemestermenu {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  display: inline-table;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 9.5px;
+  padding-right: 9.5px;
+  margin-right: 83px;
+}
+
+.freezesemestermenu:hover {
+  background-color: rgb(133, 133, 133);
+  
+
+}
+
+.degreeplannermenu {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  display: inline-table;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-right: 83px;
+}
+
+.degreeplannermenu:hover {
+  background-color: rgb(133, 133, 133);
+  
+ 
+}
+
+.guidanceboxmenu {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  display: inline-table;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 9px;
+  padding-right: 9px;
+  margin-right: 83px;
+}
+
+.guidanceboxmenu:hover {
+  background-color: rgb(133, 133, 133);
+
+ 
+}
+
+.pastpapersmenu {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  display: inline-table;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15.5px;
+  padding-right: 15.5px;
+  margin-right: 83px;
+}
+
+.pastpapersmenu:hover {
+  background-color: rgb(133, 133, 133);
+
+  
+}
+
+.officehoursmenu {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  display: inline-table;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-right: 83px;
+}
+
+.officehoursmenu:hover {
+  background-color: rgb(133, 133, 133);
+
+  
+}
+
+.mailboxmenu {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  display: inline-table;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.mailboxmenu:hover {
+  background-color: rgb(133, 133, 133);
+
+ 
+}
+
+.menuicon {
+  width: 30px;
+  height: 30px;
+}
+
+/* .homemenuname {
+
+  color: black;
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 2.5px;
+  
+} */
+
+.menuname {
+  color: black;
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 2.5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.mainmenudiv {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 40px;
+}
+.BAmenuslink {
+  color: black;
+  text-decoration: none;
+}
+
+.BAmenus {
+  display: inline;
+  padding-right: 115px;
+  
+}
+
+.BAmailboxmenu {
+  display: inline;
+}
+
+/* .BAmenus:hover {
+  color: rgb(84, 84, 84);
+ 
+}
+
+.BAmailboxmenu:hover {
+  color: rgb(84, 84, 84);
+
+} */
+
+/* .active-link{
+  color: red
+} */
+
+/* nav a.active{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(201, 121, 0);
+
+} */
+
+.abc{
+ 
+ border: none;
+ border-radius: 5px;
+ background-color: red;
+ display: inline-table;
+ text-align: center;
+ padding-top: 8px;
+ padding-bottom: 24px;
+ padding-left: 18px;
+ padding-right: 18px;
+ margin-right: 83px;
+}
+
+.addcoursemenu-active {
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  display: inline-table;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 83px;
+}
+
+/* .glow{
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px rgb(105, 105, 105); 
+  }
+  
+  to {
+    text-shadow: 0 0 5px rgb(105, 105, 105);
+  }
+} */

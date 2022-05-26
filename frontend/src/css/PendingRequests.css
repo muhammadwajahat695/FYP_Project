@@ -1,0 +1,322 @@
+.nexticon {
+  width: 25px;
+  height: 25px;
+}
+
+.nexticon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.pendingReg {
+  width: 350px;
+}
+
+.response{
+  color: red;
+  font-size: 20px;
+  
+}
+
+.respdiv{
+  margin-top: -50px;
+  margin-left: 750px;
+}
+.pendingName {
+  width: 450px;
+}
+
+.pendingType {
+  width: 350px;
+}
+
+.formIcon {
+  width: 150px;
+}
+
+.AddDropFormContainer {
+  overflow-y: scroll;
+  background-color: rgb(231, 231, 231);
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 420px;
+  margin-top: -20px;
+  border-radius: 0px 0px 5px 5px;
+  padding: 20px 40px 20px 40px;
+}
+
+.formLabel {
+  display: inline;
+}
+.formData {
+  display: inline;
+  font-weight: normal;
+  margin-left: 20px;
+  height: 23px;
+  width: 320px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 15px;
+
+}
+
+.formDataName {
+  display: inline;
+  font-weight: normal;
+  margin-left: 27px;
+  height: 23px;
+  width: 320px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 15px;
+
+}
+
+.formDataName1 {
+  display: inline;
+  font-weight: normal;
+  margin-left: 35px;
+
+
+}
+.formDataEmail {
+  display: inline;
+  font-weight: normal;
+  margin-left: 30px;
+  height: 23px;
+  width: 320px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 15px;
+ 
+}
+  .formDataEmail1 {
+    display: inline;
+    font-weight: normal;
+    margin-left: 40px;
+
+  
+  }  
+
+  .formDataCgpa1 {
+    display: inline;
+    font-weight: normal;
+    margin-left: 35px;
+  }  
+
+  .formData1 {
+    display: inline;
+    font-weight: normal;
+    margin-left: 30px;
+  }  
+
+  .formDataContact1 {
+    display: inline;
+    font-weight: normal;
+    margin-left: 22px;
+
+  
+  }  
+  .formDataCgpa {
+  display: inline;
+  font-weight: normal;
+  margin-left: 27px;
+  height: 23px;
+  width: 320px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 15px;
+
+}
+.formDataContact {
+  display: inline;
+  font-weight: normal;
+  margin-left: 15px;
+  height: 23px;
+  width: 320px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 15px;
+}
+
+.credentials {
+  margin-bottom: 30px;
+}
+
+.challandiv {
+   height: 220px;
+  width: 220px;
+  float: right;
+  margin-top: -280px;
+}
+
+.AddDropTable {
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+}
+
+.acceptBtn {
+  background-color: green;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  margin-left: 43%;
+  margin-top: 30px;
+}
+
+.acceptBtn1 {
+  background-color: green;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  margin-left: 49%;
+  margin-top: 30px;
+}
+.rejectBtn {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 7px 15px 7px 15px;
+}
+
+.formCourseCode {
+  width: 350px;
+}
+
+.formCourseTitle {
+  width: 1200px;
+}
+
+.formCredits {
+  width: 120px;
+}
+
+.formRequestType {
+  width: 350px;
+}
+
+.formSection {
+  width: 200px;
+}
+
+.formPretestMarks {
+  width: 320px;
+}
+.formReject {
+  width: 120px;
+}
+
+.FreezeSemesterTable {
+  margin-top: 50px;
+}
+
+.FreezeAcceptBtn {
+  background-color: green;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  margin-left: 43%;
+
+ 
+ 
+}
+
+.FreezeRejectBtn {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 53%;
+  padding: 10px 10px 10px 10px;
+  
+}
+
+.rejectbtndiv{
+  margin-top: -39px;
+  margin-left: 50%;
+ display: table;
+}
+
+
+.FreezeSemesterFormContainer {
+  background-color: rgb(231, 231, 231);
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 385px;
+  margin-top: -20px;
+  border-radius: 0px 0px 5px 5px;
+  padding: 40px 40px 20px 40px;
+}
+
+.FreezeReject {
+  width: 150px;
+}
+
+
+
+.pendingTable{
+  overflow-y: scroll;
+  height: 100px;
+}
+
+.credentials2 {
+  margin-bottom: 30px;
+  float: right;
+  margin-right: 40px;
+  margin-top: -340px;
+}
+
+.credentials3 {
+  margin-bottom: 30px;
+  float: right;
+  margin-right: 40px;
+  margin-top: -285px;
+}
+
+.FreezeFormReason{
+  border-radius: 5px;
+  display: inline;
+  border: 1px solid;
+  font-size: 15px;
+  margin-left: 27px;
+
+}
+
+.formreasonLabel {
+  display: inline;
+  float: right;
+  margin-top: -285px;
+  margin-right: 400px;
+}
+
+.feechallanimg{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.FreezeTime{
+  display: inline;
+  font-weight: normal;
+  margin-left: 30px;
+  height: 23px;
+  width: 325px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 15px;
+  
+}

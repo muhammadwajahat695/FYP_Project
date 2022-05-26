@@ -1,0 +1,192 @@
+.viewdiv {
+  background-color: rgb(230, 230, 230);
+  display: inline-table;
+  text-align: center;
+  margin-right: 80px;
+  margin-left: 500px;
+  margin-top: 90px;
+  padding: 0px 45px 26px 45px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+.viewdiv:hover {
+  background-color: rgb(224, 224, 224);
+  transform: scale(1.1);
+}
+
+.norecords{
+  color: gray;
+  margin-top: 150px;
+  margin-left: 250px;
+}
+.uploaddiv {
+  background-color: rgb(230, 230, 230);
+  display: inline-table;
+  text-align: center;
+  padding: 0px 40px 26px 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+.uploaddiv:hover {
+  background-color: rgb(224, 224, 224);
+  transform: scale(1.1);
+}
+.LPicon {
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+}
+
+.LpTitle {
+  float: left;
+  margin-left: 150px;
+  margin-top: -240px;
+}
+
+.backiconview {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  display: inline;
+  position: absolute;
+  margin-left: -545px;
+}
+
+.backiconupload {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  display: inline;
+  position: absolute;
+  margin-left: -535px;
+}
+
+.pastpapersdiv {
+  background-color: blue;
+  margin: 30px 150px 0px 150px;
+  text-align: center;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.pastpaperstitle {
+  padding: 10px 0px 10px 0px;
+  font-weight: normal;
+  display: inline;
+}
+
+.viewpastpaperstitle {
+  padding: 10px 0px 10px 0px;
+  font-weight: normal;
+}
+
+.uploadbutton {
+  margin-left: -93px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.uploadpastpapercontainer {
+  background-color: rgb(231, 231, 231);
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 360px;
+  border-radius: 0px 0px 5px 5px;
+  text-align: center;
+}
+
+.coursetitlelabel {
+  margin-left: -268px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.papertypelabel {
+  margin-left: -270px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.sessionlabel {
+  margin-left: -300px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.viewpastpapercontainer {
+  background-color: rgb(231, 231, 231);
+  margin-left: 150px;
+  margin-right: 50%;
+  height: 380px;
+  border-radius: 0px 0px 0px 5px;
+  text-align: center;
+  border-right: 1px solid rgb(156, 156, 156);
+}
+
+.paperpdfscontainer {
+  background-color: rgb(231, 231, 231);
+  margin-left: 50%;
+  margin-right: 150px;
+  height: 350px;
+  border-radius: 0px 0px 5px 0px;
+  margin-top: -380px;
+  padding-top: 30px;
+}
+
+.searchbtn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 7px 20px 7px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.nodata {
+  color: rgb(128, 128, 128);
+  margin-top: -10px;
+  text-align: center;
+  padding-top: 30%;
+  font-size: 21px;
+}
+
+.pdffiles {
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 5px;
+  cursor: pointer;
+  width: max-content;
+  text-decoration: none;
+  color: black;
+  line-height: 2.5em;
+  padding: 10px 10px 0px 0px;
+  background-color: white;
+}
+
+.pdficon {
+  width: 25px;
+  height: 25px;
+}
+
+.pdfpopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 150px;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  /* padding: 40px 30px 20px 30px; */
+  border-radius: 5px;
+  height: 100%;
+  width: 1300px;
+  text-align: center;
+  border: 1px solid black;
+}
+/* .pdfpopup .clsbtn{
+   
+ }
+  */

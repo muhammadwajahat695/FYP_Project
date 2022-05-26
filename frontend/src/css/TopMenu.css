@@ -1,0 +1,43 @@
+.profileicon {
+  width: 27px;
+  height: 27px;
+  display: inline;
+  margin-right: 10px;
+  margin-bottom: -7px;
+}
+
+.profileicon:hover {
+  transform: scale(1.1);
+}
+
+.profile {
+  display: inline-block;
+  margin-right: 30px;
+  color: black;
+}
+
+/* .profile:hover {
+  transform: scale(1.1);
+} */
+
+.logouticon {
+  width: 27px;
+  height: 27px;
+  display: inline;
+  margin-bottom: -7px;
+}
+
+.notificationicon {
+  width: 29px;
+  height: 29px;
+  margin-right: 30px;
+  display: inline;
+  margin-bottom: -7px;
+}
+
+.containerNo3 {
+  float: right;
+  margin-right: 150px;
+  display: inline;
+  margin-top: -80px;
+}

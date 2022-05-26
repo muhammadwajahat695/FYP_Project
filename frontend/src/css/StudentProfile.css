@@ -1,0 +1,125 @@
+.profilecontainer {
+  background: url(./../images/StudentLoginBg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 133vh;
+  width: 100vw;
+  margin-left: -8px;
+  margin-top: -22px;
+}
+
+.BAprofilecontainer {
+  background: url(./../images/BatchAdvisorBg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 95vh;
+  width: 100vw;
+  margin-left: -8px;
+  margin-top: -22px;
+}
+.profileformdiv {
+  background-color: rgb(231, 231, 231);
+  margin: -20px 150px 0px 150px;
+  /* text-align: center; */
+  padding: 35px 0px 35px 100px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.input {
+  height: 23px;
+  width: 300px;
+  /* padding: 5px 300px 80px 5px; */
+  margin: 10px 0px 20px 0px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.picdiv {
+  background-color: rgb(197, 194, 194);
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-top: -550px;
+  margin-right: 100px;
+}
+
+.editicon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -10px;
+  margin-left: 10px;
+}
+
+.editicon:hover {
+  transform: scale(1.1);
+}
+
+.BAprofileformdiv {
+  background-color: rgb(231, 231, 231);
+  margin: -20px 150px 0px 150px;
+  text-align: center;
+  padding: 35px 0px 35px 100px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.BAinput {
+  height: 23px;
+  width: 300px;
+  /* padding: 5px 300px 80px 5px; */
+  margin: 10px 0px 20px 0px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.BAfirsttwoinputs {
+  height: 23px;
+  width: 300px;
+  /* padding: 5px 300px 80px 5px; */
+  margin: 10px 40px 20px 0px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.BAnamelabel {
+  font-weight: bold;
+  margin-right: 302px;
+}
+.BAemaillabel {
+  font-weight: bold;
+  margin-right: 302px;
+}
+.BAcontactlabel {
+  font-weight: bold;
+  margin-right: 230px;
+}
+.BApasswordlabel {
+  font-weight: bold;
+  margin-right: 280px;
+}
+
+.menuheadingdiv {
+  background-color: blue;
+  margin: 40px 150px 0px 150px;
+  text-align: center;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.psdlabel {
+  font-size: 20px;
+}
+
+.BApsdlabel {
+  font-size: 20px;
+}
+
+.BApsdlink {
+  margin-right: 200px;
+}

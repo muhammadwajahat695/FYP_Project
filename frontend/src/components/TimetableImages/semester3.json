@@ -1,0 +1,559 @@
+{
+    "batch": "SP21",
+    "regNo": "191",
+    "registrationId": "SP21-BCS-191",
+    "section": "SP21-BCS-A",
+    "semester": 3,
+    "name": "Ahmed Hanan",
+    "fatherName": "Muhammad Hanan",
+    "email": "SP21.BCS.191@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Faisal Town, Lahore",
+    "password": "abcd1234",
+    "batchAdvisorName": "Muhammad Talha",
+    "batchAdvisorEmail": "talhasp21@gmail.com",
+    "profilePic": "/ProfilePics/sp21_191.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "marks": 72,
+                 "gp": 2.7
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM100",
+                 "credits": 3,
+                 "marks": 72,
+                 "gp": 2.7
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "marks": 68,
+                 "gp": 2.3
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "marks": 88,
+                 "gp": 3.7
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4,
+                 "marks": 72,
+                 "gp": 2.7
+             }
+         ],
+         "Semester2":[
+               {
+                 "courseName": "Discrete Structures",
+                 "courseCode": "CSC102",
+                 "credits": 3,
+                 "marks": 76,
+                 "gp": 3
+             },
+               {
+                 "courseName": "Programming Fundamentals",
+                 "courseCode": "CSC103",
+                 "credits": 4,
+                 "marks": 65,
+                 "gp": 2.3
+             },
+               {
+                 "courseName": "Professional Practices for IT",
+                 "courseCode": "CSC110",
+                 "credits": 3,
+                 "marks": 82,
+                 "gp": 3.3
+             },
+             {
+                "courseName": "Report Writing Skills",
+                "courseCode": "HUM102",
+                "credits": 3,
+                "marks": 78,
+                "gp": 3
+            },
+               {
+                 "courseName": "Multivariable Calculus",
+                 "courseCode": "MTH105",
+                 "credits": 3,
+                 "marks": 81,
+                 "gp": 3.3
+             },
+               {
+                 "courseName": "Electricity, Magnetism and Optics",
+                 "courseCode": "PHY120",
+                 "credits": 4,
+                 "marks": 75,
+                 "gp": 3
+             }
+         ],
+         "Semester3":[
+               {
+                 "courseName": "Object Oriented Programming",
+                 "courseCode": "CSC241",
+                 "credits": 4,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Digital Logic Design",
+                 "courseCode": "EEE241",
+                 "credits": 4,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Pakistan Studies",
+                 "courseCode": "HUM111",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Linear Algebra",
+                 "courseCode": "MTH231",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Statistics and Probability Theory",
+                 "courseCode": "MTH262",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Modern Physics",
+                 "courseCode": "PHY229",
+                 "credits": 4,
+                 "status": "enrolled"
+             }
+         ],
+         "CGPA": 2.89
+     }
+     ]
+  }
+
+
+  {
+    "batch": "SP21",
+    "regNo": "025",
+    "registrationId": "SP21-BCS-025",
+    "section": "SP21-BCS-A",
+    "semester": 3,
+    "name": "Ahad Ghufran",
+    "fatherName": "Ghufran Ahmed",
+    "email": "SP21.BCS.025@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Cantt, Sialkot",
+    "password": "abcd1234",
+    "batchAdvisorName": "Muhammad Talha",
+    "batchAdvisorEmail": "talhasp21@gmial.com",
+    "profilePic": "/ProfilePic/sp21_025.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "marks": 75,
+                 "gp": 3
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM100",
+                 "credits": 3,
+                 "marks": 72,
+                 "gp": 2.7
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "marks": 70,
+                 "gp": 2.7
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "marks": 80,
+                 "gp": 3.3
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4,
+                 "marks": 65,
+                 "gp": 2.3
+             }
+         ],
+         "Semester2":[
+               {
+                 "courseName": "Discrete Structures",
+                 "courseCode": "CSC102",
+                 "credits": 3,
+                 "marks": 76,
+                 "gp": 3
+             },
+               {
+                 "courseName": "Programming Fundamentals",
+                 "courseCode": "CSC103",
+                 "credits": 4,
+                 "marks": 70,
+                 "gp": 2.7
+             },
+               {
+                 "courseName": "Professional Practices for IT",
+                 "courseCode": "CSC110",
+                 "credits": 3,
+                 "marks": 85,
+                 "gp": 3.7
+             },
+             {
+                "courseName": "Report Writing Skills",
+                "courseCode": "HUM102",
+                "credits": 3,
+                "marks": 75,
+                "gp": 3
+            },
+               {
+                 "courseName": "Multivariable Calculus",
+                 "courseCode": "MTH105",
+                 "credits": 3,
+                 "marks": 75,
+                 "gp": 3
+             },
+               {
+                 "courseName": "Electricity, Magnetism and Optics",
+                 "courseCode": "PHY120",
+                 "credits": 4,
+                 "marks": 60,
+                 "gp": 2
+             }
+         ],
+         "Semester3":[
+               {
+                 "courseName": "Object Oriented Programming",
+                 "courseCode": "CSC241",
+                 "credits": 4,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Digital Logic Design",
+                 "courseCode": "EEE241",
+                 "credits": 4,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Pakistan Studies",
+                 "courseCode": "HUM111",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Linear Algebra",
+                 "courseCode": "MTH231",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Statistics and Probability Theory",
+                 "courseCode": "MTH262",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Modern Physics",
+                 "courseCode": "PHY229",
+                 "credits": 4,
+                 "status": "enrolled"
+             }
+         ],
+         "CGPA": 2.81
+     }
+     ]
+  }
+
+  {
+    "batch": "SP21",
+    "regNo": "173",
+    "registrationId": "SP21-BCS-173",
+    "section": "SP21-BCS-B",
+    "semester": 3,
+    "name": "Umer Husnain",
+    "fatherName": "Husnain Ali",
+    "email": "SP21.BCS.173@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Wapda Town, Lahore",
+    "password": "abcd1234",
+    "batchAdvisorName": "Muhammad Talha",
+    "batchAdvisorEmail": "talhasp21@gmail.com",
+    "profilePic": "/ProfilePics/sp21_173.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "marks": 65,
+                 "gp": 2.3
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM100",
+                 "credits": 3,
+                 "marks": 70,
+                 "gp": 2.7
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "marks": 80,
+                 "gp": 3.3
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "marks": 85,
+                 "gp": 3.7
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4,
+                 "marks": 70,
+                 "gp": 2.7
+             }
+         ],
+         "Semester2":[
+               {
+                 "courseName": "Discrete Structures",
+                 "courseCode": "CSC102",
+                 "credits": 3,
+                 "marks": 90,
+                 "gp": 4
+             },
+               {
+                 "courseName": "Programming Fundamentals",
+                 "courseCode": "CSC103",
+                 "credits": 4,
+                 "marks": 47,
+                 "gp": 0
+             },
+               {
+                 "courseName": "Professional Practices for IT",
+                 "courseCode": "CSC110",
+                 "credits": 3,
+                 "marks": 85,
+                 "gp": 3.7
+             },
+             {
+                "courseName": "Report Writing Skills",
+                "courseCode": "HUM102",
+                "credits": 3,
+                "marks": 75,
+                "gp": 3
+            },
+               {
+                 "courseName": "Multivariable Calculus",
+                 "courseCode": "MTH105",
+                 "credits": 3,
+                 "marks": 70,
+                 "gp": 2.7
+             },
+               {
+                 "courseName": "Electricity, Magnetism and Optics",
+                 "courseCode": "PHY120",
+                 "credits": 4,
+                 "marks": 70,
+                 "gp": 2.7
+             }
+         ],
+         "Semester3":[
+               {
+                 "courseName": "Digital Logic Design",
+                 "courseCode": "EEE241",
+                 "credits": 4,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Pakistan Studies",
+                 "courseCode": "HUM111",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Linear Algebra",
+                 "courseCode": "MTH231",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Statistics and Probability Theory",
+                 "courseCode": "MTH262",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Modern Physics",
+                 "courseCode": "PHY229",
+                 "credits": 4,
+                 "status": "enrolled"
+             }
+         ],
+         "CGPA": 2.76
+     }
+     ]
+  }
+
+
+  {
+    "batch": "SP21",
+    "regNo": "141",
+    "registrationId": "SP21-BCS-141",
+    "section": "SP21-BCS-B",
+    "semester": 3,
+    "name": "Murtaza Ali",
+    "fatherName": "Akbar Ali",
+    "email": "SP21.BCS.141@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Faisal Town, Lahore",
+    "password": "abcd1234",
+    "batchAdvisorName": "Muhammad Talha",
+    "batchAdvisorEmail": "talhasp21@gmail.com",
+    "profilePic": "/ProfilePics/sp21_141.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "marks": 75,
+                 "gp": 3
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM100",
+                 "credits": 3,
+                 "marks": 72,
+                 "gp": 2.7
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "marks": 70,
+                 "gp": 2.7
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "marks": 80,
+                 "gp": 3.3
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4,
+                 "marks": 65,
+                 "gp": 2.3
+             }
+         ],
+         "Semester2":[
+               {
+                 "courseName": "Discrete Structures",
+                 "courseCode": "CSC102",
+                 "credits": 3,
+                 "marks": 76,
+                 "gp": 3
+             },
+               {
+                 "courseName": "Programming Fundamentals",
+                 "courseCode": "CSC103",
+                 "credits": 4,
+                 "marks": 70,
+                 "gp": 2.7
+             },
+               {
+                 "courseName": "Professional Practices for IT",
+                 "courseCode": "CSC110",
+                 "credits": 3,
+                 "marks": 85,
+                 "gp": 3.7
+             },
+             {
+                "courseName": "Report Writing Skills",
+                "courseCode": "HUM102",
+                "credits": 3,
+                "marks": 75,
+                "gp": 3
+            },
+               {
+                 "courseName": "Multivariable Calculus",
+                 "courseCode": "MTH105",
+                 "credits": 3,
+                 "marks": 75,
+                 "gp": 3
+             },
+               {
+                 "courseName": "Electricity, Magnetism and Optics",
+                 "courseCode": "PHY120",
+                 "credits": 4,
+                 "marks": 60,
+                 "gp": 2
+             }
+         ],
+         "Semester3":[
+               {
+                 "courseName": "Object Oriented Programming",
+                 "courseCode": "CSC241",
+                 "credits": 4,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Digital Logic Design",
+                 "courseCode": "EEE241",
+                 "credits": 4,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Pakistan Studies",
+                 "courseCode": "HUM111",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Linear Algebra",
+                 "courseCode": "MTH231",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Statistics and Probability Theory",
+                 "courseCode": "MTH262",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+               {
+                 "courseName": "Modern Physics",
+                 "courseCode": "PHY229",
+                 "credits": 4,
+                 "status": "enrolled"
+             }
+         ],
+         "CGPA": 2.81
+     }
+     ]
+  }

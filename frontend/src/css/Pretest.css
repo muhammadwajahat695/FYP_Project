@@ -1,0 +1,85 @@
+.PretestInstructionsContainer {
+    background-color: rgb(231, 231, 231);
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 400px;
+    margin-top: -20px;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+
+    
+}
+
+.innerdiv{
+    /* margin-top: 50px; */
+    display: inline-block;
+    
+   
+}
+.backToAddCourse{
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    display: inline;
+    position: absolute;
+    margin-left: -580px;
+}
+
+.instructions{
+    font-size: 18px;
+}
+
+.prereqCode{
+    font-size: 19px;
+}
+
+.prereqTitle{
+    font-size: 19px;
+}
+
+.start-btn{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 20px 5px 20px;
+}
+
+.Pretest-questions-container{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    background-color: rgb(231, 231, 231);
+    margin-left: 350px;
+    margin-right: 350px;
+    height: 620px;
+    margin-top: -20px;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 20px;
+}
+
+.choice{
+    margin-left: 14px;
+    font-size: 18px;
+}
+
+.select{
+    margin-bottom: 10px;
+}
+
+.submit-btn-container{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.question-container{
+    margin-left: 50px;
+}
+
+.pretestdiv {
+    background-color: blue;
+    margin: 30px 350px 0px 350px;
+    text-align: center;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+  }

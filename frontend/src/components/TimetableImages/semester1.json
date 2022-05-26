@@ -1,0 +1,217 @@
+{
+    "batch": "SP22",
+    "regNo": "101",
+    "registrationId": "SP22-BCS-101",
+    "section": "SP22-BCS-A",
+    "semester": 1,
+    "name": "Tayyab Ali",
+    "fatherName": "Ashraf Ali",
+    "email": "SP22.BCS.101@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Model Town, Lahore",
+    "password": "abcd1234",
+    "batchAdvisorName": "Muhammad Nasir",
+    "batchAdvisorEmail": "nasirsp22@gmail.com",
+    "profilePic": "/ProfilePics/sp22_101.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM100",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "status": "enrolled"
+
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "status": "enrolled"
+
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4 ,
+                 "status": "enrolled"
+            }
+         ],
+         "CGPA": 0.00
+     }
+     ]
+ }
+ {
+    "batch": "SP22",
+    "regNo": "121",
+    "registrationId": "SP22-BCS-121",
+    "section": "SP22-BCS-A",
+    "semester": 1,
+    "name": "Talha Tariq",
+    "fatherName": "Tariq Ahmed",
+    "email": "SP22.BCS.121@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Raiwind Road, Lahore",
+    "password": "abcd1234",
+    "batchAdvisorName": "Muhammad Nasir",
+    "batchAdvisorEmail": "nasirsp22@gmail.com",
+    "profilePic": "/ProfilePics/sp22_121.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM100",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4,
+                 "status": "enrolled"            }
+         ],
+         "CGPA": 0.00
+     }
+     ]
+ }
+
+{
+    "batch": "SP22",
+    "regNo": "131",
+    "registrationId": "SP22-BCS-131",
+    "section": "SP22-BCS-B",
+    "semester": 1,
+    "name": "Wahab Ahmed",
+    "fatherName": "Majid Ahmed",
+    "email": "SP22.BCS.131@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Johar Town, Lahore",
+    "password": "abcd1234",
+    "batchAdvisorName": "Muhammad Nasir",
+    "batchAdvisorEmail": "nasirsp22@gmail.com",
+    "profilePic": "/ProfilePics/sp22_131.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM100",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4,
+                 "status": "enrolled"             
+                }
+         ],
+         "CGPA": 0.00
+     }
+     ]
+ }
+
+
+ {
+    "batch": "SP22",
+    "regNo": "078",
+    "registrationId": "SP22-BCS-078",
+    "section": "SP22-BCS-B",
+    "semester": 1,
+    "name": "Abdullah Naveed",
+    "fatherName": "Naveed Ahmed",
+    "email": "SP22.BCS.078@gmail.com",
+    "contactNo": "03162345678",
+    "address": "Cantt, Sialkot",
+    "password": "abcd1234",
+    "batchAdvisorName": "Muhammad Nasir",
+    "batchAdvisorEmail": "nasirsp22@gmail.com",
+    "profilePic": "/ProfilePics/sp22_078.jpg",
+     "Result":[
+         {
+         "Semester1":[
+             {
+                 "courseName": "Introduction to ICT",
+                 "courseCode": "CSC101",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "English Comprehension and Composition",
+                 "courseCode": "HUM300",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "Islamic Studies",
+                 "courseCode": "HUM110",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "Calculus and Analytical Geometry",
+                 "courseCode": "MTH104",
+                 "credits": 3,
+                 "status": "enrolled"
+             },
+             {
+                 "courseName": "Applied Physics for Engineers",
+                 "courseCode": "PHY121",
+                 "credits": 4   ,
+                 "status": "enrolled"          
+            }
+         ],
+         "CGPA": 0.00
+     }
+     ]
+ }
+ 

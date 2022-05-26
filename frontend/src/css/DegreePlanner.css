@@ -1,0 +1,71 @@
+.specializationTracksContainer {
+    background-color: rgb(231, 231, 231);
+    margin-left: 150px;
+    margin-right: 40%;
+    margin-top: -20px;
+    height: 380px;
+    border-radius: 0px 0px 0px 5px;
+    text-align: center;
+    border-right: 1px solid rgb(156, 156, 156);
+  }
+  
+  .recommendedCoursesContainer {
+    background-color: rgb(231, 231, 231);
+    margin-left: 60%;
+    margin-right: 150px;
+    text-align: center;
+    height: 330px;
+    border-radius: 0px 0px 5px 0px;
+    margin-top: -380px;
+    padding-top: 50px;
+  }
+  
+  .track{
+    font-size: 22px;
+    margin-top: 80px;
+    color: rgb(41, 41, 41);
+  }
+  .trackname{
+    font-size: 22px;
+    color: rgb(41, 41, 41);
+  }
+  
+  .imgheight {
+    height: 460px;
+    width: 920px;
+  }
+  
+  .tracksinput {
+    width: 350px;
+    height: 35px;
+    /* padding: 0px 268px 12px 0px; */
+    font-size: 16px;
+    /* margin: 10px 0px 15px 40px; */
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 4%;
+  }
+  
+  .noimg {
+    color: rgb(128, 128, 128);
+  
+    text-align: center;
+    padding-top: 10%;
+    font-size: 21px;
+  }
+  
+  .trackImg {
+    transition: 1s ease;
+    padding-top: 15px;
+  }
+  
+  .trackImg:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease;
+  }
+
+.RecommendationTitle{
+    margin-top: -30px;
+}

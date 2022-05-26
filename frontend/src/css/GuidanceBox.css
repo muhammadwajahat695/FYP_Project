@@ -1,0 +1,232 @@
+.needguidancediv {
+  background-color: rgb(230, 230, 230);
+  display: inline-table;
+  text-align: center;
+  margin-right: 80px;
+  margin-left: 500px;
+  margin-top: 80px;
+  padding: 0px 50px 26px 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+.needguidancediv:hover {
+  background-color: rgb(224, 224, 224);
+  transform: scale(1.1);
+}
+.wanttoguidediv {
+  background-color: rgb(230, 230, 230);
+  display: inline-table;
+  text-align: center;
+  padding: 0px 50px 26px 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+.wanttoguidediv:hover {
+  background-color: rgb(224, 224, 224);
+  transform: scale(1.1);
+}
+.LPicon {
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+}
+
+.LpTitle {
+  float: left;
+  margin-left: 150px;
+  margin-top: -240px;
+}
+
+.backiconneed {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  display: inline;
+  position: absolute;
+  margin-left: -553px;
+}
+
+.backiconwant {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  display: inline;
+  position: absolute;
+  margin-left: -552px;
+}
+
+.needguidancecontainer {
+  background-color: rgb(231, 231, 231);
+  margin-left: 150px;
+  margin-right: 60%;
+  height: 260px;
+  border-radius: 0px 0px 0px 5px;
+  text-align: center;
+  border-right: 1px solid rgb(156, 156, 156);
+  padding-top: 60px;
+}
+
+.selectcourselabel {
+  margin-left: -290px;
+  font-weight: bold;
+  font-size: large;
+}
+.selectcourseinput {
+  width: 400px;
+  height: 35px;
+  /* padding: 0px 268px 12px 0px; */
+  font-size: 14px;
+  margin: 10px 0px 50px 0px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.needguidancetable {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.namecol {
+  width: 550px;
+}
+
+.emailcol {
+  width: 400px;
+}
+
+.contactcol {
+  width: 500px;
+}
+
+td,
+th {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.contactcheckbox {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.contactcheckboxlabel {
+  font-size: 18px;
+}
+.courseinput {
+  width: 400px;
+  height: 35px;
+  /* padding: 0px 268px 12px 0px; */
+  font-size: 14px;
+  margin: 10px 0px 15px 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.wanttoguidecontainer {
+  background-color: rgb(231, 231, 231);
+  margin-left: 150px;
+  margin-right: 50%;
+  height: 260px;
+  border-radius: 0px 0px 0px 5px;
+  text-align: center;
+  border-right: 1px solid rgb(156, 156, 156);
+  padding-top: 60px;
+}
+
+.courselabel {
+  margin-left: -290px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.addbtn {
+  background-color: rgb(255, 153, 0);
+  border: none;
+  color: white;
+  padding: 7px 20px 7px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.wanttoguidetable {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.coursecol {
+  width: 600px;
+  font-size: 18px;
+}
+
+.delcol {
+  width: 100px;
+  font-size: 18px;
+}
+
+.guidancetablecontainer {
+  background-color: rgb(231, 231, 231);
+  margin-left: 50%;
+  margin-right: 150px;
+  text-align: center;
+  height: 230px;
+  border-radius: 0px 0px 5px 0px;
+  margin-top: -320px;
+  padding-top: 90px;
+}
+
+.needguidancetablecontainer {
+  background-color: rgb(231, 231, 231);
+  margin-left: 40%;
+  margin-right: 150px;
+  text-align: center;
+  height: 270px;
+  border-radius: 0px 0px 5px 0px;
+  margin-top: -320px;
+  padding-top: 50px;
+}
+
+.row {
+  height: 15px;
+}
+
+.guidancesubmitbtn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 7px 20px 7px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.wanttoguidecourselabel {
+  margin-left: -265px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.delbtn {
+  height: 22px;
+  width: 22px;
+}
+
+.wanttoguidebutton {
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  padding: 7px 20px 7px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.norecord{
+  margin-top: 90px;
+  color: gray;
+}
+
+.norec{
+  margin-top: 50px;
+  color: gray;
+}
